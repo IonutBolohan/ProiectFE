@@ -1,3 +1,5 @@
+@import "dimensions";
+@import "colors";
 %commonButtonProp {
   width: 160px;
   height: 48px;
@@ -6,4 +8,16 @@
   letter-spacing: $subtitleSpacing;
   font-weight: 700;
   text-transform: uppercase;
+}
+%commonShopBtnProp {
+  font-size: $subtitle;
+  font-weight: 700;
+  letter-spacing: $subtitleSpacing;
+  color: $grey;
+  text-transform: uppercase;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
 }
