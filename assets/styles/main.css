@@ -211,6 +211,9 @@ body .speakersEarphones .speakerZx9 {
   margin-right: 10vw;
   position: relative;
 }
+body .speakersEarphones .speakerZx9 .circles {
+  height: 100vh;
+}
 body .speakersEarphones .speakerZx9 .imgZx9 {
   margin: 0;
   padding: 0;
