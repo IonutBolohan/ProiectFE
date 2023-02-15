@@ -165,6 +165,7 @@ body .shopMenu {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  margin-bottom: 250px;
 }
 body .shopMenu .headphones {
   margin-left: 10vw;
@@ -197,4 +198,24 @@ body .shopMenu .item .text {
 }
 body .shopMenu .item .text h6 {
   margin-bottom: 20px;
+}
+body .speakersEarphones ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body .speakersEarphones .speakerZx9 {
+  background-color: #d87d4a;
+  height: 80vh;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  position: relative;
+}
+body .speakersEarphones .speakerZx9 .imgZx9 {
+  margin: 0;
+  padding: 0;
+  height: 400px;
+  position: absolute;
+  bottom: 0;
+  left: 10vw;
 }/*# sourceMappingURL=main.css.map */
