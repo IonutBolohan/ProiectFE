@@ -84,6 +84,19 @@ body .hero .btnProduct {
   text-transform: uppercase;
 }
 
+body .shopMenu .item .text .shopBtn {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: grey;
+  text-transform: uppercase;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
 body .hero {
   background-image: url(../home/desktop/image-hero.jpg);
   background-position: center;
