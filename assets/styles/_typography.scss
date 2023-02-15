@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+@import "dimensions";
+html {
+  font-size: $paragSize;
+  font-weight: normal;
+}
+body {
+  font-family: "Manrope", "sans-serif";
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+h1 {
+  font-size: $h1;
+  letter-spacing: $h1Spacing;
+}
+h2 {
+  font-size: $h2;
+  letter-spacing: $h2Spacing;
+}
+h3 {
+  font-size: $h3;
+  letter-spacing: $h3Spacing;
+}
+h4 {
+  font-size: $h4;
+  letter-spacing: $h4Spacing;
+}
+h5 {
+  font-size: $h5;
+  letter-spacing: $h5Spacing;
+}
+h6 {
+  font-size: $h6;
+  letter-spacing: $h6Spacing;
+}
+
+div {
+  font-size: $overline;
+  letter-spacing: $overlineSpacing;
+}
+p {
+  font-size: $paragSize;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 500;
+}

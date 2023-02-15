@@ -1,0 +1,150 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+html {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Manrope", "sans-serif";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: 1.15px;
+}
+
+h4 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 1.7px;
+}
+
+h6 {
+  font-size: 18px;
+  letter-spacing: 1.3px;
+}
+
+div {
+  font-size: 14px;
+  letter-spacing: 10px;
+}
+
+p {
+  font-size: 15px;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body .hero .btnProduct {
+  width: 160px;
+  height: 48px;
+  border: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+body .hero {
+  background-image: url(../home/desktop/image-hero.jpg);
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+body .hero header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #ffffff;
+  width: 80vw;
+  height: 96px;
+  margin-left: 10vw;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 34px;
+}
+body .hero header .container h4 {
+  text-transform: lowercase;
+  width: 143px;
+  margin: 0;
+}
+body .hero header .container ul {
+  display: flex;
+  list-style: none;
+  gap: 34px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 6px;
+}
+body .hero header .container button {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 10px;
+  margin: 0;
+}
+body .hero .main {
+  color: #ffffff;
+  margin-left: 10vw;
+  margin-top: 10vh;
+  width: 398px;
+}
+body .hero .main div,
+body .hero .main h1,
+body .hero .main p {
+  margin: 0;
+  margin-bottom: 24px;
+}
+body .hero .main div {
+  font-weight: 400;
+}
+body .hero .main h1 {
+  font-weight: 700;
+}
+body .hero .main p {
+  width: 90%;
+}
+body .hero .btnProduct {
+  background-color: #d87d4a;
+  color: #ffffff;
+}/*# sourceMappingURL=main.css.map */
