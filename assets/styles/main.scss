@@ -75,4 +75,41 @@ body {
       @extend %commonButtonProp;
     }
   }
+  .shopMenu {
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    .headphones {
+      margin-left: 10vw;
+    }
+    .earphones {
+      margin-right: 10vw;
+    }
+    .item {
+      width: 350px;
+      height: 204px;
+      background-color: $strongGrey;
+      margin-top: 208px;
+      position: relative;
+      .img {
+        height: 160px;
+        width: 150px;
+        bottom: 100px;
+        left: 90px;
+        margin: 0;
+        padding: 0;
+        position: absolute;
+      }
+      .text {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-top: 70px;
+        h6 {
+          margin-bottom: 20px;
+        }
+      }
+    }
+  }
 }

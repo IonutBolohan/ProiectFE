@@ -147,4 +147,41 @@ body .hero .main p {
 body .hero .btnProduct {
   background-color: #d87d4a;
   color: #ffffff;
+}
+body .shopMenu {
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+}
+body .shopMenu .headphones {
+  margin-left: 10vw;
+}
+body .shopMenu .earphones {
+  margin-right: 10vw;
+}
+body .shopMenu .item {
+  width: 350px;
+  height: 204px;
+  background-color: #f1f1f1;
+  margin-top: 208px;
+  position: relative;
+}
+body .shopMenu .item .img {
+  height: 160px;
+  width: 150px;
+  bottom: 100px;
+  left: 90px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+body .shopMenu .item .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+body .shopMenu .item .text h6 {
+  margin-bottom: 20px;
 }/*# sourceMappingURL=main.css.map */
