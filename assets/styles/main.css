@@ -109,7 +109,7 @@ body .speakersEarphones .speakerZx9 .textSpeakers .blackbtn {
   background-color: #000000;
 }
 
-body .speakersEarphones .speakerZx7 .headZx7 .lightBtn {
+body .speakersEarphones .productBtnLight, body .speakersEarphones .speakerZx7 .headZx7 .lightBtn {
   width: 160px;
   height: 48px;
   border: none;
@@ -281,9 +281,25 @@ body .speakersEarphones .speakerZx7 .headZx7 {
 }
 body .speakersEarphones .earphonesYx1 {
   display: flex;
+  justify-content: space-between;
   gap: 20px;
 }
-body .speakersEarphones .earphonesYx1 .aboutYx1 {
+body .speakersEarphones .aboutYx1 {
   background-color: #f1f1f1;
   width: 100%;
+  padding-top: 7vh;
+  padding-left: 7vw;
+}
+body .aboutStore {
+  display: flex;
+  justify-content: space-between;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+body .aboutStore .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
 }/*# sourceMappingURL=main.css.map */

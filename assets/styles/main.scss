@@ -182,12 +182,32 @@ body {
     }
     .earphonesYx1 {
       display: flex;
+      justify-content: space-between;
       gap: 20px;
+    }
 
-      .aboutYx1 {
-        background-color: $strongGrey;
-        width: 100%;
-      }
+    .aboutYx1 {
+      background-color: $strongGrey;
+      width: 100%;
+      padding-top: 7vh;
+      padding-left: 7vw;
+    }
+    .productBtnLight {
+      @extend %commonLightButtonProp;
+    }
+  }
+  .aboutStore {
+    display: flex;
+    justify-content: space-between;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+
+    .about {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      width: 40%;
     }
   }
 }
