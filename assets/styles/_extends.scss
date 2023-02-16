@@ -44,3 +44,33 @@
   background-color: transparent;
   border: 1px solid $black;
 }
+%commonNavBar {
+  .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    color: $white;
+    width: 80vw;
+    height: 96px;
+    margin-left: 10vw;
+    border-bottom: 1px solid $white;
+    padding-bottom: 34px;
+
+    h4 {
+      text-transform: lowercase;
+      width: 143px;
+      margin: 0;
+    }
+    ul {
+      display: flex;
+      list-style: none;
+      gap: 34px;
+      font-weight: 700;
+      font-size: $subtitle;
+      letter-spacing: $h1Spacing;
+      text-transform: uppercase;
+      margin: 0;
+      padding-bottom: 6px;
+    }
+  }
+}

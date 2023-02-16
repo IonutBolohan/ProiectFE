@@ -12,41 +12,16 @@ body {
     background-size: cover;
     height: 100vh;
     header {
-      .container {
-        display: flex;
-        justify-content: space-between;
-        align-items: flex-end;
-        color: $white;
-        width: 80vw;
-        height: 96px;
-        margin-left: 10vw;
-        border-bottom: 1px solid $white;
-        padding-bottom: 34px;
+      @extend %commonNavBar;
 
-        h4 {
-          text-transform: lowercase;
-          width: 143px;
-          margin: 0;
-        }
-        ul {
-          display: flex;
-          list-style: none;
-          gap: 34px;
-          font-weight: 700;
-          font-size: $subtitle;
-          letter-spacing: $h1Spacing;
-          text-transform: uppercase;
-          margin: 0;
-          padding-bottom: 6px;
-        }
-        button {
-          background-color: transparent;
-          border: none;
-          padding-bottom: 10px;
-          margin: 0;
-        }
+      button {
+        background-color: transparent;
+        border: none;
+        padding-bottom: 10px;
+        margin: 0;
       }
     }
+
     .main {
       color: $white;
       margin-left: 10vw;
@@ -208,6 +183,38 @@ body {
       flex-direction: column;
       justify-content: center;
       width: 40%;
+    }
+  }
+  .footer {
+    background-color: $black;
+    height: 50vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    margin-top: 300px;
+
+    @extend %commonNavBar;
+    .container {
+      border: none;
+    }
+    .text {
+      padding-left: 10vw;
+      width: 49%;
+      text-align: justify;
+
+      p {
+        color: $grey;
+      }
+      .copyright {
+        margin-top: 50px;
+      }
+    }
+    .logo {
+      display: flex;
+      flex-direction: row-reverse;
+      padding-right: 10vw;
+      transform: translateY(-10vw);
+      gap: 15px;
     }
   }
 }
