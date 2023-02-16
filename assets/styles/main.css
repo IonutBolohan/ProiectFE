@@ -97,6 +97,31 @@ body .shopMenu .item .text .shopBtn {
   align-items: center;
 }
 
+body .speakersEarphones .speakerZx9 .textSpeakers .blackbtn {
+  width: 160px;
+  height: 48px;
+  border: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #ffffff;
+  background-color: #000000;
+}
+
+body .speakersEarphones .speakerZx7 .headZx7 .lightBtn {
+  width: 160px;
+  height: 48px;
+  border: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #000000;
+  background-color: transparent;
+  border: 1px solid #000000;
+}
+
 body .hero {
   background-image: url(../home/desktop/image-hero.jpg);
   background-position: center;
@@ -165,6 +190,7 @@ body .shopMenu {
   display: flex;
   flex-direction: row;
   gap: 30px;
+  margin-bottom: 250px;
 }
 body .shopMenu .headphones {
   margin-left: 10vw;
@@ -197,4 +223,67 @@ body .shopMenu .item .text {
 }
 body .shopMenu .item .text h6 {
   margin-bottom: 20px;
+}
+body .speakersEarphones ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+body .speakersEarphones ul li {
+  margin-bottom: 30px;
+  margin-left: 10vw;
+  margin-right: 10vw;
+}
+body .speakersEarphones .speakerZx9 {
+  background-color: #d87d4a;
+  height: 80vh;
+  position: relative;
+  overflow: hidden;
+}
+body .speakersEarphones .speakerZx9 .circles {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 20vw;
+  top: -50px;
+}
+body .speakersEarphones .speakerZx9 .textSpeakers {
+  padding-left: 50vw;
+  padding-top: 17vh;
+  position: relative;
+}
+body .speakersEarphones .speakerZx9 .textSpeakers h1 {
+  margin: 0;
+  padding: 0;
+  color: #ffffff;
+  width: 90%;
+}
+body .speakersEarphones .speakerZx9 .textSpeakers p {
+  width: 80%;
+  color: #ffffff;
+  margin-bottom: 30px;
+}
+body .speakersEarphones .speakerZx9 .imgZx9 {
+  margin: 0;
+  padding: 0;
+  height: 420px;
+  position: absolute;
+  bottom: 0;
+  left: 10vw;
+}
+body .speakersEarphones .speakerZx7 {
+  position: relative;
+}
+body .speakersEarphones .speakerZx7 .headZx7 {
+  position: absolute;
+  top: 7vh;
+  left: 7vw;
+}
+body .speakersEarphones .earphonesYx1 {
+  display: flex;
+  gap: 20px;
+}
+body .speakersEarphones .earphonesYx1 .aboutYx1 {
+  background-color: #f1f1f1;
+  width: 100%;
 }/*# sourceMappingURL=main.css.map */
