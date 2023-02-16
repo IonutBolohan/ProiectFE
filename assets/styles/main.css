@@ -109,7 +109,7 @@ body .speakersEarphones .speakerZx9 .textSpeakers .blackbtn {
   background-color: #000000;
 }
 
-body .speakersEarphones .speakerZx7 .headZx7 .lightBtn {
+body .speakersEarphones .earphonesYx1 .productBtnLight, body .speakersEarphones .speakerZx7 .headZx7 .lightBtn {
   width: 160px;
   height: 48px;
   border: none;
@@ -286,4 +286,6 @@ body .speakersEarphones .earphonesYx1 {
 body .speakersEarphones .earphonesYx1 .aboutYx1 {
   background-color: #f1f1f1;
   width: 100%;
+  padding-top: 7vh;
+  padding-left: 7vw;
 }/*# sourceMappingURL=main.css.map */

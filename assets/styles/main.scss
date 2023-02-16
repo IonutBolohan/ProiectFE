@@ -187,6 +187,11 @@ body {
       .aboutYx1 {
         background-color: $strongGrey;
         width: 100%;
+        padding-top: 7vh;
+        padding-left: 7vw;
+      }
+      .productBtnLight {
+        @extend %commonLightButtonProp;
       }
     }
   }
