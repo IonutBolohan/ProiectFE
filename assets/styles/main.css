@@ -318,7 +318,8 @@ body .aboutStore .about {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  width: 40%;
+  width: 100%;
+  padding-right: 7vw;
 }
 body .aboutStore .about p {
   color: grey;
