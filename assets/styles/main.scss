@@ -95,6 +95,7 @@ body {
     }
   }
   .speakersEarphones {
+    margin-bottom: 250px;
     img {
       border-radius: 8px;
     }
@@ -211,7 +212,7 @@ body {
     width: 100vw;
     margin: 0;
     padding: 0;
-    margin-top: 300px;
+    margin-top: 250px;
 
     @extend %commonNavBar;
     .container {

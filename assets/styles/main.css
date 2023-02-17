@@ -230,6 +230,9 @@ body .shopMenu .item .text {
 body .shopMenu .item .text h6 {
   margin-bottom: 20px;
 }
+body .speakersEarphones {
+  margin-bottom: 250px;
+}
 body .speakersEarphones img {
   border-radius: 8px;
 }
@@ -333,7 +336,7 @@ body .footer {
   width: 100vw;
   margin: 0;
   padding: 0;
-  margin-top: 300px;
+  margin-top: 250px;
 }
 body .footer .container {
   border: none;
