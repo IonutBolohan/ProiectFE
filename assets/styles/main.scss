@@ -6,6 +6,7 @@
 @import "extends";
 
 body {
+  margin-right: 0;
   .hero {
     background-image: url(../home/desktop/image-hero.jpg);
     background-position: center;
@@ -53,6 +54,7 @@ body {
   .shopMenu {
     display: flex;
     flex-direction: row;
+    justify-content: space-between;
     gap: 30px;
     margin-bottom: 250px;
     .headphones {
@@ -67,6 +69,7 @@ body {
       background-color: $strongGrey;
       margin-top: 208px;
       position: relative;
+      border-radius: 8px;
       .img {
         height: 160px;
         width: 150px;
@@ -92,6 +95,9 @@ body {
     }
   }
   .speakersEarphones {
+    img {
+      border-radius: 8px;
+    }
     ul {
       list-style: none;
       margin: 0;
@@ -107,6 +113,7 @@ body {
       height: 80vh;
       position: relative;
       overflow: hidden;
+      border-radius: 8px;
       .circles {
         margin: 0;
         padding: 0;
@@ -145,6 +152,10 @@ body {
     }
     .speakerZx7 {
       position: relative;
+      .imgZx7 {
+        border-radius: 8px;
+        width: 80vw;
+      }
       .headZx7 {
         position: absolute;
         top: 7vh;
@@ -160,29 +171,37 @@ body {
       justify-content: space-between;
       gap: 20px;
     }
-
+    .imgYx1 {
+      max-width: 510px;
+    }
     .aboutYx1 {
       background-color: $strongGrey;
       width: 100%;
       padding-top: 7vh;
       padding-left: 7vw;
+      border-radius: 8px;
     }
     .productBtnLight {
       @extend %commonLightButtonProp;
     }
   }
   .aboutStore {
-    display: flex;
-    justify-content: space-between;
-    width: 80vw;
     margin-left: 10vw;
     margin-right: 10vw;
+    display: flex;
+    justify-content: space-between;
 
     .about {
       display: flex;
       flex-direction: column;
       justify-content: center;
       width: 40%;
+      p {
+        color: $grey;
+      }
+    }
+    .headphonesManImg {
+      border-radius: 8px;
     }
   }
   .footer {

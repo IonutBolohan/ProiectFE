@@ -150,6 +150,9 @@ body .footer .container ul, body .hero header .container ul {
   padding-bottom: 6px;
 }
 
+body {
+  margin-right: 0;
+}
 body .hero {
   background-image: url(../home/desktop/image-hero.jpg);
   background-position: center;
@@ -190,6 +193,7 @@ body .hero .btnProduct {
 body .shopMenu {
   display: flex;
   flex-direction: row;
+  justify-content: space-between;
   gap: 30px;
   margin-bottom: 250px;
 }
@@ -205,6 +209,7 @@ body .shopMenu .item {
   background-color: #f1f1f1;
   margin-top: 208px;
   position: relative;
+  border-radius: 8px;
 }
 body .shopMenu .item .img {
   height: 160px;
@@ -225,6 +230,9 @@ body .shopMenu .item .text {
 body .shopMenu .item .text h6 {
   margin-bottom: 20px;
 }
+body .speakersEarphones img {
+  border-radius: 8px;
+}
 body .speakersEarphones ul {
   list-style: none;
   margin: 0;
@@ -240,6 +248,7 @@ body .speakersEarphones .speakerZx9 {
   height: 80vh;
   position: relative;
   overflow: hidden;
+  border-radius: 8px;
 }
 body .speakersEarphones .speakerZx9 .circles {
   margin: 0;
@@ -275,6 +284,10 @@ body .speakersEarphones .speakerZx9 .imgZx9 {
 body .speakersEarphones .speakerZx7 {
   position: relative;
 }
+body .speakersEarphones .speakerZx7 .imgZx7 {
+  border-radius: 8px;
+  width: 80vw;
+}
 body .speakersEarphones .speakerZx7 .headZx7 {
   position: absolute;
   top: 7vh;
@@ -285,24 +298,33 @@ body .speakersEarphones .earphonesYx1 {
   justify-content: space-between;
   gap: 20px;
 }
+body .speakersEarphones .imgYx1 {
+  max-width: 510px;
+}
 body .speakersEarphones .aboutYx1 {
   background-color: #f1f1f1;
   width: 100%;
   padding-top: 7vh;
   padding-left: 7vw;
+  border-radius: 8px;
 }
 body .aboutStore {
-  display: flex;
-  justify-content: space-between;
-  width: 80vw;
   margin-left: 10vw;
   margin-right: 10vw;
+  display: flex;
+  justify-content: space-between;
 }
 body .aboutStore .about {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 40%;
+}
+body .aboutStore .about p {
+  color: grey;
+}
+body .aboutStore .headphonesManImg {
+  border-radius: 8px;
 }
 body .footer {
   background-color: #000000;
