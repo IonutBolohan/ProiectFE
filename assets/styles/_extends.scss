@@ -9,6 +9,15 @@
   font-weight: 700;
   text-transform: uppercase;
 }
+%commonBtnCounter {
+  width: 120px;
+  height: 48px;
+  border: none;
+  font-size: $subtitle;
+  letter-spacing: $subtitleSpacing;
+  font-weight: 700;
+  text-transform: uppercase;
+}
 %commonShopBtnProp {
   font-size: $subtitle;
   font-weight: 700;

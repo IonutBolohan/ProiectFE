@@ -1,0 +1,177 @@
+@import "colors";
+@import "typography";
+@import "base";
+@import "dimensions";
+@import "spacings";
+@import "extends";
+body {
+  header {
+    @extend %commonHeader;
+    @extend %commonNavBar;
+    height: 15vh;
+    .container {
+      border-bottom: none;
+    }
+    h2 {
+      color: $white;
+      width: 10vw;
+      margin-left: 42vw;
+      padding-top: 50px;
+    }
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 80vw;
+    grid-template-rows: 40vw 30vw 40vw 40vw 20vw 40vw;
+    width: 80vw;
+    margin-left: 10vw;
+    margin-right: 10vw;
+    row-gap: 250px;
+    .back {
+      color: $black;
+      position: absolute;
+      top: 35vh;
+      opacity: 50%;
+    }
+    .xx99Mark2 {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .featuresContent {
+      grid-column: 1/2;
+      grid-row: 2/3;
+      display: flex;
+      column-gap: 10vw;
+      .features {
+        p {
+          width: 98%;
+          opacity: 50%;
+          margin-bottom: 30px;
+        }
+      }
+      .inTheBox {
+        width: 100%;
+        margin-right: 5vw;
+        .lists {
+          display: flex;
+          .firstLi {
+            li {
+              margin-bottom: 12px;
+              letter-spacing: 0;
+              margin-right: 10px;
+              color: $strongOrange;
+              opacity: 100%;
+            }
+          }
+        }
+        ul {
+          list-style: none;
+          padding: 0;
+          li {
+            opacity: 50%;
+            p {
+              margin: 0;
+              margin-bottom: 10px;
+            }
+          }
+        }
+      }
+    }
+    .xx59 {
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+    .xx59 {
+      grid-column: 1/2;
+      grid-row: 4/5;
+    }
+    .shopMenu {
+      grid-column: 1/2;
+      grid-row: 5/6;
+      @extend %commonShopMenu;
+    }
+    .aboutStore {
+      grid-column: 1/2;
+      grid-row: 6/7;
+      @extend %commonAboutStore;
+    }
+    .xx99Mark2,
+    .xx99Mark1,
+    .xx59 {
+      display: flex;
+      justify-content: space-between;
+      column-gap: 10vw;
+      img {
+        border-radius: 8px;
+      }
+
+      .main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+
+        div,
+        h2,
+        p {
+          margin: 0;
+          margin-bottom: 24px;
+        }
+        div {
+          font-weight: 400;
+          color: $strongOrange;
+        }
+        h2 {
+          font-weight: 700;
+        }
+        p {
+          color: $grey;
+          width: 450px;
+        }
+        .btnCounter {
+          background-color: $strongGrey;
+          @extend %commonBtnCounter;
+          .num::before {
+            content: "-";
+            size: 90px;
+            margin-right: 30px;
+            padding-bottom: 100px;
+            opacity: 50%;
+          }
+          .num::after {
+            content: "+";
+            margin-left: 30px;
+            opacity: 50%;
+          }
+          color: $black;
+        }
+        .btnProduct {
+          background-color: $strongOrange;
+          color: $white;
+          @extend %commonButtonProp;
+        }
+      }
+    }
+    .xx99Mark1 {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+    .xx59 {
+      grid-column: 1/2;
+      grid-row: 3/4;
+    }
+    .shopMenu {
+      grid-column: 1/2;
+      grid-row: 4/5;
+      @extend %commonShopMenu;
+    }
+    .aboutStore {
+      grid-column: 1/2;
+      grid-row: 5/6;
+      @extend %commonAboutStore;
+    }
+  }
+  .footer {
+    margin-left: 0;
+    @extend %commonFooter;
+  }
+}
