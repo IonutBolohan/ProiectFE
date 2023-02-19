@@ -54,7 +54,10 @@ body {
       color: $white;
       margin-left: 10vw;
       margin-top: 10vh;
-      width: 398px;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+      width: 30%;
 
       div,
       h1,
@@ -64,12 +67,15 @@ body {
       }
       div {
         font-weight: 400;
+        color: $grey;
       }
       h1 {
         font-weight: 700;
+        color: $white;
       }
       p {
         width: 90%;
+        color: $white;
       }
     }
     .btnProduct {

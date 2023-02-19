@@ -235,7 +235,10 @@ body .hero .main {
   color: #ffffff;
   margin-left: 10vw;
   margin-top: 10vh;
-  width: 398px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
 }
 body .hero .main div,
 body .hero .main h1,
@@ -245,12 +248,15 @@ body .hero .main p {
 }
 body .hero .main div {
   font-weight: 400;
+  color: grey;
 }
 body .hero .main h1 {
   font-weight: 700;
+  color: #ffffff;
 }
 body .hero .main p {
   width: 90%;
+  color: #ffffff;
 }
 body .hero .btnProduct {
   background-color: #d87d4a;
