@@ -1,0 +1,321 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+html {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Manrope", "sans-serif";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: 1.15px;
+}
+
+h4 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 1.7px;
+}
+
+h6 {
+  font-size: 18px;
+  letter-spacing: 1.3px;
+}
+
+div {
+  font-size: 14px;
+  letter-spacing: 10px;
+}
+
+p {
+  font-size: 15px;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body .content .yx1Earphones .main .btnProduct {
+  width: 160px;
+  height: 48px;
+  border: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
+body .content .shopMenu .item .text .shopBtn {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: grey;
+  text-transform: uppercase;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+body header {
+  background-color: #000000;
+  height: 50vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 250px;
+}
+
+body header .container, body .footer .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #ffffff;
+  width: 80vw;
+  height: 96px;
+  margin-left: 10vw;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 34px;
+}
+body header .container .container, body .footer .container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #ffffff;
+  width: 80vw;
+  height: 96px;
+  margin-left: 10vw;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 34px;
+}
+body header .container .container h4, body .footer .container .container h4 {
+  text-transform: lowercase;
+  width: 143px;
+  margin: 0;
+}
+body header .container .container ul, body .footer .container .container ul {
+  display: flex;
+  list-style: none;
+  gap: 34px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 6px;
+}
+body header .container button, body .footer .container button {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 10px;
+  margin: 0;
+}
+body header .container h4, body .footer .container h4 {
+  text-transform: lowercase;
+  width: 143px;
+  margin: 0;
+}
+body header .container ul, body .footer .container ul {
+  display: flex;
+  list-style: none;
+  gap: 34px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 6px;
+}
+body header button, body .footer button {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 10px;
+  margin: 0;
+}
+
+body .content .shopMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+body .content .shopMenu .item {
+  width: 350px;
+  height: 204px;
+  background-color: #f1f1f1;
+  position: relative;
+  border-radius: 8px;
+}
+body .content .shopMenu .item .img {
+  height: 160px;
+  width: 150px;
+  bottom: 100px;
+  left: 90px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+}
+body .content .shopMenu .item .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+body .content .shopMenu .item .text h6 {
+  margin-bottom: 20px;
+}
+body .content .aboutStore {
+  display: flex;
+  justify-content: space-between;
+}
+body .content .aboutStore .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-right: 7vw;
+}
+body .content .aboutStore .about p {
+  color: grey;
+}
+body .content .aboutStore .headphonesManImg {
+  border-radius: 8px;
+}
+
+body .footer {
+  background-color: #101010;
+  height: 50vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  margin-top: 250px;
+}
+body .footer .container {
+  border: none;
+}
+body .footer .text {
+  padding-left: 10vw;
+  width: 49%;
+  text-align: justify;
+}
+body .footer .text p {
+  color: grey;
+}
+body .footer .text .copyright {
+  margin-top: 50px;
+}
+body .footer .logo {
+  display: flex;
+  flex-direction: row-reverse;
+  padding-right: 10vw;
+  transform: translateY(-10vw);
+  gap: 15px;
+}
+
+body header h2 {
+  color: #ffffff;
+  width: 10vw;
+  margin-left: 42vw;
+  padding-top: 50px;
+}
+body .content {
+  display: grid;
+  grid-template-columns: 80vw;
+  grid-template-rows: 40vw 20vw 40vw;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  row-gap: 250px;
+}
+body .content .yx1Earphones {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+body .content .shopMenu {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+body .content .aboutStore {
+  grid-column: 1/2;
+  grid-row: 3/4;
+}
+body .content .yx1Earphones {
+  display: flex;
+  justify-content: space-between;
+  -moz-column-gap: 10vw;
+       column-gap: 10vw;
+}
+body .content .yx1Earphones img {
+  border-radius: 8px;
+}
+body .content .yx1Earphones .main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+body .content .yx1Earphones .main div,
+body .content .yx1Earphones .main h2,
+body .content .yx1Earphones .main p {
+  margin: 0;
+  margin-bottom: 24px;
+}
+body .content .yx1Earphones .main div {
+  font-weight: 400;
+  color: #d87d4a;
+}
+body .content .yx1Earphones .main h2 {
+  font-weight: 700;
+  width: 50%;
+}
+body .content .yx1Earphones .main p {
+  color: grey;
+}
+body .content .yx1Earphones .main .btnProduct {
+  background-color: #d87d4a;
+  color: #ffffff;
+}
+body .footer {
+  margin-left: 0;
+}/*# sourceMappingURL=earphones.css.map */
