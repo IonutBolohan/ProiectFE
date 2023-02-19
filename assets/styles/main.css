@@ -122,7 +122,7 @@ body .speakersEarphones .productBtnLight, body .speakersEarphones .speakerZx7 .h
   border: 1px solid #000000;
 }
 
-body .footer .container, body .hero header .container {
+body .footer .container {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -133,12 +133,23 @@ body .footer .container, body .hero header .container {
   border-bottom: 1px solid #ffffff;
   padding-bottom: 34px;
 }
-body .footer .container h4, body .hero header .container h4 {
+body .footer .container .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #ffffff;
+  width: 80vw;
+  height: 96px;
+  margin-left: 10vw;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 34px;
+}
+body .footer .container .container h4 {
   text-transform: lowercase;
   width: 143px;
   margin: 0;
 }
-body .footer .container ul, body .hero header .container ul {
+body .footer .container .container ul {
   display: flex;
   list-style: none;
   gap: 34px;
@@ -148,6 +159,34 @@ body .footer .container ul, body .hero header .container ul {
   text-transform: uppercase;
   margin: 0;
   padding-bottom: 6px;
+}
+body .footer .container button {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 10px;
+  margin: 0;
+}
+body .footer .container h4 {
+  text-transform: lowercase;
+  width: 143px;
+  margin: 0;
+}
+body .footer .container ul {
+  display: flex;
+  list-style: none;
+  gap: 34px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 6px;
+}
+body .footer button {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 10px;
+  margin: 0;
 }
 
 body {
@@ -159,6 +198,33 @@ body .hero {
   background-size: cover;
   height: 100vh;
 }
+body .hero header .container {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  color: #ffffff;
+  width: 80vw;
+  height: 96px;
+  margin-left: 10vw;
+  border-bottom: 1px solid #ffffff;
+  padding-bottom: 34px;
+}
+body .hero header .container h4 {
+  text-transform: lowercase;
+  width: 143px;
+  margin: 0;
+}
+body .hero header .container ul {
+  display: flex;
+  list-style: none;
+  gap: 34px;
+  font-weight: 700;
+  font-size: 13px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin: 0;
+  padding-bottom: 6px;
+}
 body .hero header button {
   background-color: transparent;
   border: none;
@@ -169,7 +235,10 @@ body .hero .main {
   color: #ffffff;
   margin-left: 10vw;
   margin-top: 10vh;
-  width: 398px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 30%;
 }
 body .hero .main div,
 body .hero .main h1,
@@ -179,12 +248,15 @@ body .hero .main p {
 }
 body .hero .main div {
   font-weight: 400;
+  color: grey;
 }
 body .hero .main h1 {
   font-weight: 700;
+  color: #ffffff;
 }
 body .hero .main p {
   width: 90%;
+  color: #ffffff;
 }
 body .hero .btnProduct {
   background-color: #d87d4a;
@@ -331,7 +403,7 @@ body .aboutStore .headphonesManImg {
   border-radius: 8px;
 }
 body .footer {
-  background-color: #000000;
+  background-color: #101010;
   height: 50vh;
   width: 100vw;
   margin: 0;

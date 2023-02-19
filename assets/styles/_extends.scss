@@ -44,6 +44,14 @@
   background-color: transparent;
   border: 1px solid $black;
 }
+%commonHeader {
+  background-color: $black;
+  height: 50vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  margin-bottom: 250px;
+}
 %commonNavBar {
   .container {
     display: flex;
@@ -55,6 +63,41 @@
     margin-left: 10vw;
     border-bottom: 1px solid $white;
     padding-bottom: 34px;
+    .container {
+      display: flex;
+      justify-content: space-between;
+      align-items: flex-end;
+      color: $white;
+      width: 80vw;
+      height: 96px;
+      margin-left: 10vw;
+      border-bottom: 1px solid $white;
+      padding-bottom: 34px;
+
+      h4 {
+        text-transform: lowercase;
+        width: 143px;
+        margin: 0;
+      }
+      ul {
+        display: flex;
+        list-style: none;
+        gap: 34px;
+        font-weight: 700;
+        font-size: $subtitle;
+        letter-spacing: $h1Spacing;
+        text-transform: uppercase;
+        margin: 0;
+        padding-bottom: 6px;
+      }
+    }
+
+    button {
+      background-color: transparent;
+      border: none;
+      padding-bottom: 10px;
+      margin: 0;
+    }
 
     h4 {
       text-transform: lowercase;
@@ -72,5 +115,99 @@
       margin: 0;
       padding-bottom: 6px;
     }
+  }
+
+  button {
+    background-color: transparent;
+    border: none;
+    padding-bottom: 10px;
+    margin: 0;
+  }
+}
+
+%commonShopMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  column-gap: 30px;
+  .item {
+    width: 350px;
+    height: 204px;
+    background-color: $strongGrey;
+    position: relative;
+    border-radius: 8px;
+    .img {
+      height: 160px;
+      width: 150px;
+      bottom: 100px;
+      left: 90px;
+      margin: 0;
+      padding: 0;
+      position: absolute;
+    }
+    .text {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      margin-top: 70px;
+      h6 {
+        margin-bottom: 20px;
+      }
+      .shopBtn {
+        @extend %commonShopBtnProp;
+      }
+    }
+  }
+}
+
+%commonAboutStore {
+  display: flex;
+  justify-content: space-between;
+
+  .about {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    padding-right: 7vw;
+    p {
+      color: $grey;
+    }
+  }
+  .headphonesManImg {
+    border-radius: 8px;
+  }
+}
+%commonFooter {
+  background-color: $lightBlack;
+  height: 50vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+  margin-top: 250px;
+
+  @extend %commonNavBar;
+  .container {
+    border: none;
+  }
+  .text {
+    padding-left: 10vw;
+    width: 49%;
+    text-align: justify;
+
+    p {
+      color: $grey;
+    }
+    .copyright {
+      margin-top: 50px;
+    }
+  }
+  .logo {
+    display: flex;
+    flex-direction: row-reverse;
+    padding-right: 10vw;
+    transform: translateY(-10vw);
+    gap: 15px;
   }
 }
