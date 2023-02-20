@@ -33,7 +33,7 @@ body {
       top: 35vh;
       opacity: 50%;
     }
-    .xx99Mark2 {
+    .xx99Mark1 {
       grid-column: 1/2;
       grid-row: 1/2;
       display: flex;
@@ -53,10 +53,6 @@ body {
         p {
           margin: 0;
           margin-bottom: 24px;
-        }
-        div {
-          font-weight: 400;
-          color: $strongOrange;
         }
         h2 {
           font-weight: 700;
