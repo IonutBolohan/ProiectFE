@@ -74,9 +74,9 @@ img {
   max-width: 100%;
 }
 
-body .content .galleryStore .content .firstItem .nameAndButton button,
-body .content .galleryStore .content .secondItem .nameAndButton button,
-body .content .galleryStore .content .thirdItem .nameAndButton button, body .content .yx1Earphone .main .btnProduct {
+body .all .content .galleryStore .content .firstItem .nameAndButton button,
+body .all .content .galleryStore .content .secondItem .nameAndButton button,
+body .all .content .galleryStore .content .thirdItem .nameAndButton button, body .all .content .xx99Mark2 .main .btnProduct {
   width: 160px;
   height: 48px;
   border: none;
@@ -86,7 +86,7 @@ body .content .galleryStore .content .thirdItem .nameAndButton button, body .con
   text-transform: uppercase;
 }
 
-body .content .yx1Earphone .main .btnCounter {
+body .all .content .xx99Mark2 .main .btnCounter {
   width: 120px;
   height: 48px;
   border: none;
@@ -96,7 +96,7 @@ body .content .yx1Earphone .main .btnCounter {
   text-transform: uppercase;
 }
 
-body .content .shopMenu .item .text .shopBtn {
+body .all .content .shopMenu .item .text .shopBtn {
   font-size: 13px;
   font-weight: 700;
   letter-spacing: 1px;
@@ -109,7 +109,7 @@ body .content .shopMenu .item .text .shopBtn {
   align-items: center;
 }
 
-body header {
+body .all header {
   background-color: #000000;
   height: 50vh;
   width: 100vw;
@@ -118,7 +118,7 @@ body header {
   margin-bottom: 250px;
 }
 
-body header .container, body .footer .container {
+body .all header .container, body .all .footer .container {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -129,7 +129,7 @@ body header .container, body .footer .container {
   border-bottom: 1px solid #ffffff;
   padding-bottom: 34px;
 }
-body header .container .container, body .footer .container .container {
+body .all header .container .container, body .all .footer .container .container {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -140,12 +140,12 @@ body header .container .container, body .footer .container .container {
   border-bottom: 1px solid #ffffff;
   padding-bottom: 34px;
 }
-body header .container .container h4, body .footer .container .container h4 {
+body .all header .container .container h4, body .all .footer .container .container h4 {
   text-transform: lowercase;
   width: 143px;
   margin: 0;
 }
-body header .container .container ul, body .footer .container .container ul {
+body .all header .container .container ul, body .all .footer .container .container ul {
   display: flex;
   list-style: none;
   gap: 34px;
@@ -156,18 +156,18 @@ body header .container .container ul, body .footer .container .container ul {
   margin: 0;
   padding-bottom: 6px;
 }
-body header .container button, body .footer .container button {
+body .all header .container button, body .all .footer .container button {
   background-color: transparent;
   border: none;
   padding-bottom: 10px;
   margin: 0;
 }
-body header .container h4, body .footer .container h4 {
+body .all header .container h4, body .all .footer .container h4 {
   text-transform: lowercase;
   width: 143px;
   margin: 0;
 }
-body header .container ul, body .footer .container ul {
+body .all header .container ul, body .all .footer .container ul {
   display: flex;
   list-style: none;
   gap: 34px;
@@ -178,28 +178,28 @@ body header .container ul, body .footer .container ul {
   margin: 0;
   padding-bottom: 6px;
 }
-body header button, body .footer button {
+body .all header button, body .all .footer button {
   background-color: transparent;
   border: none;
   padding-bottom: 10px;
   margin: 0;
 }
 
-body .content .shopMenu {
+body .all .content .shopMenu {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-body .content .shopMenu .item {
+body .all .content .shopMenu .item {
   width: 350px;
   height: 204px;
   background-color: #f1f1f1;
   position: relative;
   border-radius: 8px;
 }
-body .content .shopMenu .item .img {
+body .all .content .shopMenu .item .img {
   height: 160px;
   width: 150px;
   bottom: 100px;
@@ -208,35 +208,35 @@ body .content .shopMenu .item .img {
   padding: 0;
   position: absolute;
 }
-body .content .shopMenu .item .text {
+body .all .content .shopMenu .item .text {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   margin-top: 70px;
 }
-body .content .shopMenu .item .text h6 {
+body .all .content .shopMenu .item .text h6 {
   margin-bottom: 20px;
 }
-body .content .aboutStore {
+body .all .content .aboutStore {
   display: flex;
   justify-content: space-between;
 }
-body .content .aboutStore .about {
+body .all .content .aboutStore .about {
   display: flex;
   flex-direction: column;
   justify-content: center;
   width: 100%;
   padding-right: 7vw;
 }
-body .content .aboutStore .about p {
+body .all .content .aboutStore .about p {
   color: grey;
 }
-body .content .aboutStore .headphonesManImg {
+body .all .content .aboutStore .headphonesManImg {
   border-radius: 8px;
 }
 
-body .footer {
+body .all .footer {
   background-color: #101010;
   height: 50vh;
   width: 100vw;
@@ -244,21 +244,21 @@ body .footer {
   padding: 0;
   margin-top: 250px;
 }
-body .footer .container {
+body .all .footer .container {
   border: none;
 }
-body .footer .text {
+body .all .footer .text {
   padding-left: 10vw;
   width: 49%;
   text-align: justify;
 }
-body .footer .text p {
+body .all .footer .text p {
   color: grey;
 }
-body .footer .text .copyright {
+body .all .footer .text .copyright {
   margin-top: 50px;
 }
-body .footer .logo {
+body .all .footer .logo {
   display: flex;
   flex-direction: row-reverse;
   padding-right: 10vw;
@@ -266,19 +266,24 @@ body .footer .logo {
   gap: 15px;
 }
 
-body header {
+body .all {
+  background-size: cover;
+  background-clip: content-box;
+  background-image: linear-gradient(grey, grey);
+}
+body .all header {
   height: 15vh;
 }
-body header .container {
+body .all header .container {
   border-bottom: none;
 }
-body header h2 {
+body .all header h2 {
   color: #ffffff;
   width: 10vw;
   margin-left: 42vw;
   padding-top: 50px;
 }
-body .content {
+body .all .content {
   display: grid;
   grid-template-columns: 80vw;
   grid-template-rows: 40vw 30vw 40vw 40vw 20vw 40vw;
@@ -287,13 +292,13 @@ body .content {
   margin-right: 10vw;
   row-gap: 250px;
 }
-body .content .back {
+body .all .content .back {
   color: #000000;
   position: absolute;
   top: 35vh;
   opacity: 50%;
 }
-body .content .yx1Earphone {
+body .all .content .xx99Mark2 {
   grid-column: 1/2;
   grid-row: 1/2;
   display: flex;
@@ -301,89 +306,89 @@ body .content .yx1Earphone {
   -moz-column-gap: 10vw;
        column-gap: 10vw;
 }
-body .content .yx1Earphone img {
+body .all .content .xx99Mark2 img {
   border-radius: 8px;
 }
-body .content .yx1Earphone .main {
+body .all .content .xx99Mark2 .main {
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
-body .content .yx1Earphone .main div,
-body .content .yx1Earphone .main h2,
-body .content .yx1Earphone .main p {
+body .all .content .xx99Mark2 .main div,
+body .all .content .xx99Mark2 .main h2,
+body .all .content .xx99Mark2 .main p {
   margin: 0;
   margin-bottom: 24px;
 }
-body .content .yx1Earphone .main h2 {
-  font-weight: 700;
-}
-body .content .yx1Earphone .main div {
+body .all .content .xx99Mark2 .main div {
   font-weight: 400;
   color: #d87d4a;
 }
-body .content .yx1Earphone .main p {
+body .all .content .xx99Mark2 .main h2 {
+  font-weight: 700;
+}
+body .all .content .xx99Mark2 .main p {
   color: grey;
   width: 450px;
 }
-body .content .yx1Earphone .main .btnCounter {
+body .all .content .xx99Mark2 .main .btnCounter {
   background-color: #f1f1f1;
   color: #000000;
 }
-body .content .yx1Earphone .main .btnCounter .num::before {
+body .all .content .xx99Mark2 .main .btnCounter .num::before {
   content: "-";
   size: 90px;
   margin-right: 30px;
   padding-bottom: 100px;
   opacity: 50%;
 }
-body .content .yx1Earphone .main .btnCounter .num::after {
+body .all .content .xx99Mark2 .main .btnCounter .num::after {
   content: "+";
   margin-left: 30px;
   opacity: 50%;
 }
-body .content .yx1Earphone .main .btnProduct {
+body .all .content .xx99Mark2 .main .btnProduct {
   background-color: #d87d4a;
   color: #ffffff;
 }
-body .content .featuresContent {
+body .all .content .featuresContent {
   grid-column: 1/2;
   grid-row: 2/3;
   display: flex;
   -moz-column-gap: 10vw;
        column-gap: 10vw;
 }
-body .content .featuresContent .features p {
+body .all .content .featuresContent .features p {
   width: 98%;
   opacity: 50%;
   margin-bottom: 30px;
 }
-body .content .featuresContent .inTheBox {
+body .all .content .featuresContent .inTheBox {
   width: 100%;
   margin-right: 5vw;
 }
-body .content .featuresContent .inTheBox .lists {
+body .all .content .featuresContent .inTheBox .lists {
   display: flex;
 }
-body .content .featuresContent .inTheBox .lists .firstLi li {
+body .all .content .featuresContent .inTheBox .lists .firstLi li {
   margin-bottom: 12px;
   letter-spacing: 0;
   margin-right: 10px;
   color: #d87d4a;
   opacity: 100%;
 }
-body .content .featuresContent .inTheBox .secondLi {
+body .all .content .featuresContent .inTheBox .secondLi {
   list-style: none;
   padding: 0;
 }
-body .content .featuresContent .inTheBox .secondLi li {
+body .all .content .featuresContent .inTheBox .secondLi li {
   opacity: 50%;
 }
-body .content .featuresContent .inTheBox .secondLi li p {
+body .all .content .featuresContent .inTheBox .secondLi li p {
   margin: 0;
   margin-bottom: 10px;
 }
-body .content .photos {
+body .all .content .photos {
   grid-column: 1/2;
   grid-row: 3/4;
   display: flex;
@@ -391,15 +396,15 @@ body .content .photos {
   -moz-column-gap: 30px;
        column-gap: 30px;
 }
-body .content .photos div img {
+body .all .content .photos div img {
   border-radius: 8px;
 }
-body .content .photos .firstColumnPhoto {
+body .all .content .photos .firstColumnPhoto {
   display: flex;
   flex-direction: column;
   row-gap: 30px;
 }
-body .content .galleryStore {
+body .all .content .galleryStore {
   grid-column: 1/2;
   grid-row: 4/5;
   display: flex;
@@ -407,50 +412,50 @@ body .content .galleryStore {
   gap: 20px;
   align-items: center;
 }
-body .content .galleryStore div {
+body .all .content .galleryStore div {
   margin: 0;
 }
-body .content .galleryStore h3 {
+body .all .content .galleryStore h3 {
   margin-bottom: 30px;
   height: 40px;
 }
-body .content .galleryStore .content {
+body .all .content .galleryStore .content {
   display: flex;
   flex-direction: row;
   -moz-column-gap: 20px;
        column-gap: 20px;
 }
-body .content .galleryStore .content .firstItem,
-body .content .galleryStore .content .secondItem,
-body .content .galleryStore .content .thirdItem {
+body .all .content .galleryStore .content .firstItem,
+body .all .content .galleryStore .content .secondItem,
+body .all .content .galleryStore .content .thirdItem {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
 }
-body .content .galleryStore .content .firstItem .nameAndButton,
-body .content .galleryStore .content .secondItem .nameAndButton,
-body .content .galleryStore .content .thirdItem .nameAndButton {
+body .all .content .galleryStore .content .firstItem .nameAndButton,
+body .all .content .galleryStore .content .secondItem .nameAndButton,
+body .all .content .galleryStore .content .thirdItem .nameAndButton {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
 }
-body .content .galleryStore .content .firstItem .nameAndButton button,
-body .content .galleryStore .content .secondItem .nameAndButton button,
-body .content .galleryStore .content .thirdItem .nameAndButton button {
+body .all .content .galleryStore .content .firstItem .nameAndButton button,
+body .all .content .galleryStore .content .secondItem .nameAndButton button,
+body .all .content .galleryStore .content .thirdItem .nameAndButton button {
   color: #ffffff;
   background-color: #d87d4a;
 }
-body .content .shopMenu {
+body .all .content .shopMenu {
   grid-column: 1/2;
   grid-row: 5/6;
   margin-top: 150px;
 }
-body .content .aboutStore {
+body .all .content .aboutStore {
   grid-column: 1/2;
   grid-row: 6/7;
 }
-body .footer {
+body .all .footer {
   margin-left: 0;
   margin-top: 250px;
-}/*# sourceMappingURL=earphones-product-1.css.map */
+}/*# sourceMappingURL=cart.css.map */
