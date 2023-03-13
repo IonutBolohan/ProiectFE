@@ -1,0 +1,28 @@
+@import "colors";
+@import "typography";
+@import "base";
+@import "dimensions";
+@import "spacings";
+@import "extends";
+body {
+  header {
+    @extend %commonHeader;
+    @extend %commonNavBar;
+    height: 15vh;
+    .container {
+      border-bottom: none;
+    }
+    h2 {
+      color: $white;
+      width: 10vw;
+      margin-left: 42vw;
+      padding-top: 50px;
+    }
+  }
+
+  .footer {
+    margin-left: 0;
+    margin-top: 250px;
+    @extend %commonFooter;
+  }
+}
