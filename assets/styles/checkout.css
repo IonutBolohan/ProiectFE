@@ -180,6 +180,9 @@ body .footer .logo {
   gap: 15px;
 }
 
+body {
+  background-color: #f2f2f2;
+}
 body header {
   height: 15vh;
 }
@@ -191,6 +194,112 @@ body header h2 {
   width: 10vw;
   margin-left: 42vw;
   padding-top: 50px;
+}
+body .content {
+  display: grid;
+  margin: 0;
+  width: 80vw;
+  margin-left: 10vw;
+  margin-right: 10vw;
+  grid-template-columns: 2fr 1fr;
+  grid-template-rows: 1fr 0.5fr;
+  gap: 30px;
+}
+body .content h6 {
+  color: #d87d4a;
+}
+body .content .checkoutTable {
+  background-color: #ffffff;
+  border-radius: 8px;
+  padding-left: 40px;
+  padding-right: 40px;
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+body .content .checkoutTable form p {
+  font-size: 14px;
+  margin: 0;
+  text-transform: capitalize;
+  letter-spacing: 0;
+  font-weight: bolder;
+}
+body .content .checkoutTable form input {
+  width: 300px;
+  height: 50px;
+  padding-left: 20px;
+  margin-top: 10px;
+  border-radius: 8px;
+  margin-bottom: 30px;
+  border: solid 1px #cfcfcf;
+}
+body .content .checkoutTable form .smallContainer {
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
+}
+body .content .checkoutTable form .adress input {
+  width: 630px;
+}
+body .content .checkoutTable form .paymentDetails {
+  position: relative;
+}
+body .content .checkoutTable form .paymentDetails .payment {
+  position: absolute;
+  top: 80px;
+}
+body .content .checkoutTable form .small3 {
+  flex-direction: column;
+  align-items: flex-end;
+}
+body .content .checkoutTable form .small3 .eMoney {
+  position: relative;
+}
+body .content .checkoutTable form .small3 .eMoney input {
+  border-color: #d87d4a;
+}
+body .content .checkoutTable form .small3 .eMoney p {
+  position: absolute;
+  margin: 0;
+  left: 50px;
+  top: 25px;
+}
+body .content .checkoutTable form .small3 .eMoney #radioBtnChecked:checked {
+  position: absolute;
+  accent-color: #d87d4a;
+  width: 20px;
+  left: 10px;
+}
+body .content .checkoutTable form .small3 .deliveryCash {
+  position: relative;
+}
+body .content .checkoutTable form .small3 .deliveryCash p {
+  position: absolute;
+  margin: 0;
+  left: 50px;
+  top: 25px;
+}
+body .content .checkoutTable form .small3 .deliveryCash #radioBtn {
+  position: absolute;
+  width: 20px;
+  left: 10px;
+}
+body .content .checkoutTable form .small4 {
+  padding-bottom: 30px;
+}
+body .content .summary {
+  grid-column: 2/3;
+  grid-row: 1/2;
+  background-color: #ffffff;
+  border-radius: 8px;
+}
+body .content .back {
+  color: #000000;
+  position: absolute;
+  top: 35vh;
+  left: 10vw;
+  opacity: 50%;
+  margin: 0;
+  margin-bottom: 24px;
 }
 body .footer {
   margin-left: 0;
