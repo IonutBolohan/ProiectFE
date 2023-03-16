@@ -74,6 +74,16 @@ img {
   max-width: 100%;
 }
 
+body form .summary button {
+  width: 160px;
+  height: 48px;
+  border: none;
+  font-size: 13px;
+  letter-spacing: 1px;
+  font-weight: 700;
+  text-transform: uppercase;
+}
+
 body header {
   background-color: #000000;
   height: 50vh;
@@ -292,6 +302,90 @@ body form .summary {
   grid-row: 1/2;
   background-color: #ffffff;
   border-radius: 8px;
+  display: flex;
+  flex-direction: row;
+  position: relative;
+  border-radius: 8px;
+}
+body form .summary h6 {
+  color: #000000;
+}
+body form .summary .imgCart {
+  width: 50%;
+  height: 50%;
+  margin: 0;
+  padding: 0;
+  border-radius: 8px;
+  transform: translateX(-10px);
+}
+body form .summary ul h5 {
+  margin: 0;
+  padding-top: 10px;
+}
+body form .summary ul li {
+  list-style: none;
+  letter-spacing: 0;
+  margin-bottom: 30px;
+  text-transform: uppercase;
+}
+body form .summary ul .total {
+  color: gray;
+  font-weight: 500;
+  font-size: medium;
+}
+body form .summary .secondList {
+  position: absolute;
+  top: 80px;
+  left: 90px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  row-gap: 25px;
+}
+body form .summary .secondList li h6 {
+  letter-spacing: 0;
+  margin: 0;
+}
+body form .summary .secondList li .money {
+  color: #979797;
+  margin: 0;
+  padding-top: 5px;
+  letter-spacing: 0;
+}
+body form .summary .thirdList {
+  position: absolute;
+  top: 80px;
+  left: 260px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  gap: 60px;
+  color: #000000;
+}
+body form .summary .thirdList h6 {
+  color: #979797;
+}
+body form .summary .thirdList .two {
+  margin-top: 10px;
+}
+body form .summary .thirdList .three {
+  margin-top: 10px;
+}
+body form .summary .thirdList li {
+  margin-bottom: 15px;
+}
+body form .summary .thirdList h6 {
+  margin: 0;
+  letter-spacing: 0;
+}
+body form .summary .fourthList .sum h6 {
+  color: #000000;
+}
+body form .summary button {
+  position: absolute;
+  background-color: #d87d4a;
+  color: #ffffff;
+  bottom: 0;
 }
 body form .back {
   color: #000000;
