@@ -20,7 +20,7 @@ body {
     }
   }
   background-color: $lightGray;
-  .content {
+  form {
     display: grid;
     margin: 0;
     width: 80vw;
@@ -41,7 +41,7 @@ body {
       padding-right: 40px;
       grid-column: 1/2;
       grid-row: 1/3;
-      form {
+      .content {
         p {
           font-size: 14px;
           margin: 0;
