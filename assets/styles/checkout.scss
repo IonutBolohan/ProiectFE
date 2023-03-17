@@ -151,10 +151,14 @@ body {
           margin-bottom: 30px;
           text-transform: uppercase;
         }
-        .total {
+        .grayColor {
           color: gray;
           font-weight: 500;
           font-size: medium;
+        }
+        .grandTotal {
+          padding-top: 20px;
+          padding-bottom: 100px;
         }
       }
       .secondList {
@@ -207,9 +211,24 @@ body {
         }
       }
       .fourthList {
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+        position: absolute;
+        right: 30px;
+        bottom: 0;
+        transform: translateY(-8px);
         .sum {
           h6 {
             color: $black;
+            margin: 0;
+            height: 20px;
+          }
+        }
+        .totalSum {
+          h6 {
+            color: $strongOrange;
+            height: 60px;
           }
         }
       }
@@ -219,6 +238,10 @@ body {
         color: $white;
         @extend %commonButtonProp;
         bottom: 0;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        left: 10%;
+        width: 80%;
       }
     }
 
