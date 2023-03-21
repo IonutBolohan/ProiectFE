@@ -217,7 +217,8 @@ body {
         position: absolute;
         right: 30px;
         bottom: 0;
-        transform: translateY(-8px);
+        bottom: 30px;
+
         .sum {
           h6 {
             color: $black;
@@ -228,7 +229,8 @@ body {
         .totalSum {
           h6 {
             color: $strongOrange;
-            height: 60px;
+            height: 20px;
+            transform: translateY(-15px);
           }
         }
       }
