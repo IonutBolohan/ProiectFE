@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="eng">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="assets/favicon-32x32.png"
+    />
+    <link href="assets/styles/checkout-modal.css" rel="stylesheet" />
+    <title>Checkout Modal</title>
+  </head>
+  <body>
+    <header>
+      <div class="container">
+        <h4>audiophile</h4>
+        <nav>
+          <ul>
+            <li>home</li>
+            <li>headphones</li>
+            <li>speakers</li>
+            <li>earphones</li>
+          </ul>
+        </nav>
+        <button>
+          <img src="assets/shared/desktop/icon-cart.svg" alt="cartImage" />
+        </button>
+      </div>
+    </header>
+    <div class="backgroundImage"></div>
+    <div class="order">
+      <img src="../ProiectFE/assets/checkout/icon-order-confirmation.svg" />
+      <h3>thank you</br>for your order</h3>
+      <p>You will receive an email confirmation shortly.</p>
+      <div class="productContainer">
+        <div class="about">
+          <div class="contentProduct">
+            <img src="../ProiectFE/assets/cart/image-xx99-mark-two-headphones.jpg" />
+              <div class="product">
+                <h6>xx99 mk ||</h6>
+                <h6 class="money">$2,999</h6>
+              </div>
+            <h6 class="one">x1</h6>
+        </div>
+        <p>and 2 other item(s)</p>
+      </div>
+      <div class="productTotal">
+        <ul>
+          <li><p>grand total</p></li>
+          <li><h5>$5,446</h5></li>
+        </ul>
+      </div>
+      </div>
+     <button>Back to home</button>
+    </div>
+    <form>
+      <p class="back">Go Back</p>
+      <section class="checkoutTable">
+        <section class="content">
+          <h3>Checkout</h3>
+          <h6>Billing details</h6>
+          <div class="smallContainer small1">
+            <div class="name">
+              <p>Name</p>
+              <input type="text" name="name" placeholder="Alexei Ward" />
+            </div>
+            <div class="email">
+              <p>Email Adress</p>
+              <input type="email" name="email" placeholder="alexei@mail.com" />
+            </div>
+          </div>
+          <div class="phoneNumber">
+            <p>Phone number</p>
+            <input type="number" name="number" placeholder="+1 202-555-0136" />
+          </div>
+          <h6>Shipping info</h6>
+          <div class="adress">
+            <p>adress</p>
+            <input
+              type="text"
+              name="adress"
+              placeholder="1137 Williams Avenue"
+            />
+          </div>
+          <div class="smallContainer small2">
+            <div class="zip">
+              <p>ZIP Code</p>
+              <input type="number" name="zip" placeholder="10001" />
+            </div>
+            <div class="city">
+              <p>City</p>
+              <input type="text" name="city" placeholder="New York" />
+            </div>
+          </div>
+          <div class="country">
+            <p>Country</p>
+            <input type="text" name="country" placeholder="United States" />
+          </div>
+          <div class="paymentDetails">
+            <h6>Payment details</h6>
+            <p class="payment">Payment Method</p>
+          </div>
+          <div class="smallContainer small3">
+            <div class="eMoney">
+              <input type="text" name="eMoney" class="radioBtnChecked" />
+              <p>e-Money</p>
+              <input
+                type="radio"
+                name="eMoney"
+                value="eMoney"
+                checked
+                id="radioBtnChecked"
+              />
+            </div>
+            <div class="deliveryCash">
+              <input type="text" name="deliveryCash" class="radioBtn" />
+              <p>Cash on Delivery</p>
+              <input
+                type="radio"
+                name="deliveryCash"
+                value="deliveryCash"
+                id="radioBtn"
+              />
+            </div>
+          </div>
+          <div class="smallContainer small4">
+            <div class="number">
+              <p>e-Money Number</p>
+              <input type="number" name="eNumber" placeholder="238521993" />
+            </div>
+            <div class="pin">
+              <p>e-Money PIN</p>
+              <input type="number" name="ePin" placeholder="6891" />
+            </div>
+          </div>
+        </section>
+      </section>
+      <section class="summary">
+        <section class="cart">
+          <ul class="firstList">
+            <li><h5>Summary</h5></li>
+            <li>
+              <img
+                src="../ProiectFE/assets/cart/image-xx99-mark-two-headphones.jpg"
+                alt="imgX99-2"
+                class="imgCart"
+              />
+            </li>
+            <li>
+              <img
+                src="../ProiectFE/assets/cart/image-xx59-headphones.jpg"
+                alt="imgX99-2"
+                class="imgCart"
+              />
+            </li>
+            <li>
+              <img
+                src="../ProiectFE/assets/cart/image-yx1-earphones.jpg"
+                alt="imgX99-2"
+                class="imgCart"
+              />
+            </li>
+            <li class="grayColor total">total</li>
+            <li class="grayColor shipping">shipping</li>
+            <li class="grayColor vat">vat(included)</li>
+            <li class="grayColor grandTotal">grand total</li>
+          </ul>
+          <ul class="secondList">
+            <li>
+              <h6>xx99 mk ||</h6>
+              <h6 class="money">$2,999</h6>
+            </li>
+            <li>
+              <h6>xx59</h6>
+              <h6 class="money">$899</h6>
+            </li>
+            <li>
+              <h6>yx1</h6>
+              <h6 class="money">$599</h6>
+            </li>
+          </ul>
+          <ul class="thirdList">
+            <li class="one"><h6>x1</h6></li>
+            <li class="two"><h6>x2</h6></li>
+            <li class="three"><h6>x1</h6></li>
+          </ul>
+          <ul class="fourthList">
+            <li class="sum"><h6>$5,396</h6></li>
+            <li class="sum"><h6>$50</h6></li>
+            <li class="sum"><h6>$1,079</h6></li>
+            <li class="totalSum"><h6>$5,446</h6></li>
+          </ul>
+          </ul>
+          <button>continue & pay</button>
+        </section>
+      </section>
+    </form>
+    <section class="footer">
+      <div class="container">
+        <h4>audiophile</h4>
+        <nav>
+          <ul>
+            <li>home</li>
+            <li>headphones</li>
+            <li>speakers</li>
+            <li>earphones</li>
+          </ul>
+        </nav>
+      </div>
+      <div class="text">
+        <p>
+          Audiophile is an all in one stop to fulfill your audio needs. We're a
+          small team of music lovers and sound specialists who are devoted to
+          helping you get the most out of personal audio. Come and visit our
+          demo facility - we’re open 7 days a week.
+        </p>
+        <p class="copyright">Copyright 2021. All Rights Reserved</p>
+      </div>
+      <div class="logo">
+        <img
+          src="/ProiectFE/assets/shared/desktop/icon-facebook.svg"
+          alt="facebook icon"
+        />
+        <img
+          src="/ProiectFE/assets/shared/desktop/icon-twitter.svg"
+          alt="twitter icon"
+        />
+        <img
+          src="/ProiectFE/assets/shared/desktop/icon-instagram.svg"
+          alt="instagram icon"
+        />
+      </div>
+    </section>
+  </body>
+</html>
