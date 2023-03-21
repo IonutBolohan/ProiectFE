@@ -389,7 +389,7 @@ body form .summary .fourthList {
   position: absolute;
   right: 30px;
   bottom: 0;
-  transform: translateY(-8px);
+  bottom: 30px;
 }
 body form .summary .fourthList .sum h6 {
   color: #000000;
@@ -398,7 +398,8 @@ body form .summary .fourthList .sum h6 {
 }
 body form .summary .fourthList .totalSum h6 {
   color: #d87d4a;
-  height: 60px;
+  height: 20px;
+  transform: translateY(-15px);
 }
 body form .summary button {
   position: absolute;
