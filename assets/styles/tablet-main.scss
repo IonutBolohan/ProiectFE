@@ -1,0 +1,30 @@
+@import "colors";
+@import "typography";
+@import "base";
+@import "dimensions";
+@import "spacings";
+@import "extends";
+body {
+  .hero {
+    background-image: url(../home/tablet/image-header.jpg);
+    height: 100%;
+    width: 100%;
+    .main {
+      margin-left: 50%;
+      transform: translateX(-50%);
+      margin-bottom: 50%;
+      padding-top: 50vh;
+      padding-bottom: 50vh;
+      display: flex;
+    }
+    header {
+      .container {
+        ul {
+          li {
+            display: none;
+          }
+        }
+      }
+    }
+  }
+}

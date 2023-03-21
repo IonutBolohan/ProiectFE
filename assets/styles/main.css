@@ -241,6 +241,7 @@ body .hero .main {
   margin-top: 10vh;
   display: flex;
   flex-direction: column;
+  flex-wrap: nowrap;
   gap: 10px;
   width: 30%;
 }
@@ -257,6 +258,7 @@ body .hero .main div {
 body .hero .main h1 {
   font-weight: 700;
   color: #ffffff;
+  width: 400px;
 }
 body .hero .main p {
   width: 90%;
