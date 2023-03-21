@@ -39,6 +39,12 @@ body {
           text-transform: uppercase;
           margin: 0;
           padding-bottom: 6px;
+          li {
+            &:active {
+              color: $strongOrange;
+              cursor: pointer;
+            }
+          }
         }
       }
 
@@ -82,6 +88,11 @@ body {
       background-color: $strongOrange;
       color: $white;
       @extend %commonButtonProp;
+      &:active {
+        background-color: $lightOrange;
+
+        cursor: pointer;
+      }
     }
   }
   .shopMenu {
@@ -123,6 +134,10 @@ body {
         }
         .shopBtn {
           @extend %commonShopBtnProp;
+          &:active {
+            color: $strongOrange;
+            cursor: pointer;
+          }
         }
       }
     }
@@ -172,6 +187,10 @@ body {
         }
         .blackbtn {
           @extend %commonBlackButtonProp;
+          &:active {
+            background-color: $grey;
+            cursor: pointer;
+          }
         }
       }
 
@@ -197,6 +216,11 @@ body {
 
         .lightBtn {
           @extend %commonLightButtonProp;
+          &:active {
+            color: $white;
+            background-color: $black;
+            cursor: pointer;
+          }
         }
       }
     }
@@ -217,6 +241,11 @@ body {
     }
     .productBtnLight {
       @extend %commonLightButtonProp;
+      &:active {
+        color: $white;
+        background-color: $black;
+        cursor: pointer;
+      }
     }
   }
   .aboutStore {
@@ -246,6 +275,14 @@ body {
     margin: 0;
     padding: 0;
     margin-top: 250px;
+    ul {
+      li {
+        &:active {
+          color: $strongOrange;
+          cursor: pointer;
+        }
+      }
+    }
 
     @extend %commonNavBar;
     .container {
@@ -269,6 +306,12 @@ body {
       padding-right: 10vw;
       transform: translateY(-10vw);
       gap: 15px;
+      img {
+        &:active {
+          background-color: $strongOrange;
+          cursor: pointer;
+        }
+      }
     }
   }
 }

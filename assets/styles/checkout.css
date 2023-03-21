@@ -411,6 +411,10 @@ body form .summary button {
   left: 10%;
   width: 80%;
 }
+body form .summary button:active {
+  background-color: #fbaf85;
+  cursor: pointer;
+}
 body form .back {
   color: #000000;
   position: absolute;
