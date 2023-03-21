@@ -218,6 +218,11 @@ body .content .shopMenu .item .text {
 body .content .shopMenu .item .text h6 {
   margin-bottom: 20px;
 }
+body .content .shopMenu .item .text .shopBtn:active {
+  color: #d87d4a;
+  cursor: pointer;
+}
+
 body .content .aboutStore {
   display: flex;
   justify-content: space-between;

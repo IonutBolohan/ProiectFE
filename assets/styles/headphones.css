@@ -208,6 +208,11 @@ body .content .shopMenu .item .text {
 body .content .shopMenu .item .text h6 {
   margin-bottom: 20px;
 }
+body .content .shopMenu .item .text .shopBtn:active {
+  color: #d87d4a;
+  cursor: pointer;
+}
+
 body .content .aboutStore {
   display: flex;
   justify-content: space-between;
@@ -328,6 +333,12 @@ body .content .xx99Mark1 .main .btnProduct,
 body .content .xx59 .main .btnProduct {
   background-color: #d87d4a;
   color: #ffffff;
+}
+body .content .xx99Mark2 .main .btnProduct:active,
+body .content .xx99Mark1 .main .btnProduct:active,
+body .content .xx59 .main .btnProduct:active {
+  background-color: #fbaf85;
+  cursor: pointer;
 }
 body .content .xx99Mark1 {
   grid-column: 1/2;

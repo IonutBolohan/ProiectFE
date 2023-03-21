@@ -131,10 +131,15 @@ body {
         }
         .remove {
           color: $gray;
+          padding-left: 20px;
           text-transform: none;
           font-weight: 500;
           font-size: medium;
           text-decoration: underline;
+          &:active {
+            color: $strongOrange;
+            cursor: pointer;
+          }
         }
       }
       button {
@@ -145,6 +150,10 @@ body {
         bottom: 25px;
         width: 340px;
         left: 30px;
+        &:active {
+          background-color: $lightOrange;
+          cursor: pointer;
+        }
       }
     }
     .content {

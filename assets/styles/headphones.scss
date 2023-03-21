@@ -63,6 +63,11 @@ body {
           background-color: $strongOrange;
           color: $white;
           @extend %commonButtonProp;
+
+          &:active {
+            background-color: $lightOrange;
+            cursor: pointer;
+          }
         }
       }
     }

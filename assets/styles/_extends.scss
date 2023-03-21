@@ -165,6 +165,10 @@
       }
       .shopBtn {
         @extend %commonShopBtnProp;
+        &:active {
+          color: $strongOrange;
+          cursor: pointer;
+        }
       }
     }
   }

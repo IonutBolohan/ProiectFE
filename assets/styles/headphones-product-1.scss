@@ -68,6 +68,7 @@ body {
         .btnCounter {
           background-color: $strongGrey;
           @extend %commonBtnCounter;
+
           .num::before {
             content: "-";
             size: 90px;
@@ -80,12 +81,17 @@ body {
             margin-left: 30px;
             opacity: 50%;
           }
+
           color: $black;
         }
         .btnProduct {
           background-color: $strongOrange;
           color: $white;
           @extend %commonButtonProp;
+          &:active {
+            background-color: $lightOrange;
+            cursor: pointer;
+          }
         }
       }
     }
@@ -179,6 +185,10 @@ body {
               @extend %commonButtonProp;
               color: $white;
               background-color: $strongOrange;
+              &:active {
+                background-color: $lightOrange;
+                cursor: pointer;
+              }
             }
           }
         }

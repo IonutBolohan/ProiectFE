@@ -287,10 +287,15 @@ body .all .cart .thirdList h6 {
 }
 body .all .cart .thirdList .remove {
   color: #979797;
+  padding-left: 20px;
   text-transform: none;
   font-weight: 500;
   font-size: medium;
   text-decoration: underline;
+}
+body .all .cart .thirdList .remove:active {
+  color: #d87d4a;
+  cursor: pointer;
 }
 body .all .cart button {
   position: absolute;
@@ -299,6 +304,10 @@ body .all .cart button {
   bottom: 25px;
   width: 340px;
   left: 30px;
+}
+body .all .cart button:active {
+  background-color: #fbaf85;
+  cursor: pointer;
 }
 body .all .content {
   display: grid;
