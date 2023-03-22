@@ -74,67 +74,6 @@ img {
   max-width: 100%;
 }
 
-body .speakersEarphones .speakerZx9 {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  height: 130vh;
-}
-body .speakersEarphones .speakerZx9 .imgZx9 {
-  max-height: 230px;
-  min-width: 210px;
-  top: 70px;
-  left: 37%;
-}
-body .speakersEarphones .speakerZx9 .textSpeakers {
-  transform: translateX(-28vw);
-  padding-top: 250px;
-}
-body .speakersEarphones .speakerZx9 .textSpeakers h1 {
-  width: 320px;
-  text-align: center;
-  padding-top: 80px;
-  padding-bottom: 20px;
-}
-body .speakersEarphones .speakerZx9 .textSpeakers p {
-  width: 320px;
-  text-align: center;
-  padding-bottom: 20px;
-}
-body .speakersEarphones .speakerZx9 .textSpeakers .blackbtn {
-  margin-left: 80px;
-}
-body .shopMenu {
-  margin-bottom: 25vh;
-}
-body .shopMenu .item {
-  margin-top: 25vh;
-}
-body .shopMenu .item .img {
-  width: 90%;
-  left: 2vw;
-}
-body .shopMenu .item .text h6 {
-  font-size: 15px;
-  font-weight: bold;
-}
-body .speakerZx7 .headZx7 {
-  padding-top: 40px;
-}
-body .aboutStore {
-  margin-top: 25vh;
-  flex-direction: column-reverse;
-}
-body .aboutStore .about {
-  text-align: center;
-  width: 90%;
-  margin-left: 5%;
-}
-body .aboutStore .about p {
-  margin-left: 5%;
-  padding-left: 5%;
-  height: 20px;
-}
 body .hero {
   background-image: url(../home/tablet/image-header.jpg);
   height: 100%;
@@ -170,6 +109,93 @@ body .hero header .container h4 {
 }
 body .hero header .container ul li {
   display: none;
+}
+body .shopMenu {
+  margin-bottom: 25vh;
+}
+body .shopMenu .headphones {
+  margin-left: 5vw;
+}
+body .shopMenu .earphones {
+  margin-right: 5vw;
+}
+body .shopMenu .item {
+  margin-top: 25vh;
+}
+body .shopMenu .item .img {
+  width: 90%;
+  left: 2vw;
+}
+body .shopMenu .item .text h6 {
+  font-size: 15px;
+  font-weight: bold;
+}
+body .speakersEarphones ul li {
+  margin-left: 5vw;
+  margin-right: 5vw;
+}
+body .speakersEarphones .speakerZx9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 130vh;
+}
+body .speakersEarphones .speakerZx9 .circles {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: -170px;
+}
+body .speakersEarphones .speakerZx9 .imgZx9 {
+  max-height: 230px;
+  min-width: 210px;
+  top: 70px;
+  left: 37%;
+}
+body .speakersEarphones .speakerZx9 .textSpeakers {
+  transform: translateX(-24vw);
+  padding-top: 250px;
+}
+body .speakersEarphones .speakerZx9 .textSpeakers h1 {
+  width: 320px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+}
+body .speakersEarphones .speakerZx9 .textSpeakers p {
+  width: 320px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+body .speakersEarphones .speakerZx9 .textSpeakers .blackbtn {
+  margin-left: 80px;
+}
+body .speakersEarphones .speakerZx7 .imgZx7 {
+  width: 90vw;
+}
+body .speakersEarphones .speakerZx7 .headZx7 {
+  padding-top: 40px;
+}
+body .aboutStore {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  margin-top: 25vh;
+  flex-direction: column-reverse;
+}
+body .aboutStore .about {
+  text-align: center;
+  width: 90%;
+  margin-left: 5%;
+}
+body .aboutStore .about h2 {
+  width: 80%;
+  margin-left: 10%;
+}
+body .aboutStore .about p {
+  margin-left: 5%;
+  padding-left: 5%;
+  height: 20px;
 }
 body .footer .text {
   padding-left: 5vw;
