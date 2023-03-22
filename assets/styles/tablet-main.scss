@@ -5,10 +5,76 @@
 @import "spacings";
 @import "extends";
 body {
-  .shopMenu {
-    .item {
+  .speakersEarphones {
+    .speakerZx9 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 130vh;
+      .imgZx9 {
+        max-height: 230px;
+        min-width: 210px;
+        top: 70px;
+        left: 37%;
+      }
+      .textSpeakers {
+        transform: translateX(-28vw);
+        padding-top: 250px;
+
+        h1 {
+          width: 320px;
+          text-align: center;
+          padding-top: 80px;
+          padding-bottom: 20px;
+        }
+        p {
+          width: 320px;
+          text-align: center;
+          padding-bottom: 20px;
+        }
+        .blackbtn {
+          margin-left: 80px;
+        }
+      }
     }
   }
+
+  .shopMenu {
+    margin-bottom: 25vh;
+    .item {
+      margin-top: 25vh;
+      .img {
+        width: 90%;
+        left: 2vw;
+      }
+      .text {
+        h6 {
+          font-size: $paragSize;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .speakerZx7 {
+    .headZx7 {
+      padding-top: 40px;
+    }
+  }
+  .aboutStore {
+    margin-top: 25vh;
+    flex-direction: column-reverse;
+    .about {
+      text-align: center;
+      width: 90%;
+      margin-left: 5%;
+      p {
+        margin-left: 5%;
+        padding-left: 5%;
+        height: 20px;
+      }
+    }
+  }
+
   .hero {
     background-image: url(../home/tablet/image-header.jpg);
     height: 100%;
@@ -46,6 +112,23 @@ body {
             display: none;
           }
         }
+      }
+    }
+  }
+  .footer {
+    .text {
+      padding-left: 5vw;
+    }
+    .container {
+      margin-left: 5vw;
+      padding-top: 30px;
+      margin-bottom: 30px;
+      display: flex;
+      flex-direction: column;
+      align-items: flex-start;
+      gap: 30px;
+      ul {
+        padding-left: 0;
       }
     }
   }
