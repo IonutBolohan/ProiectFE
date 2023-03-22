@@ -77,15 +77,35 @@ img {
 body .hero {
   background-image: url(../home/tablet/image-header.jpg);
   height: 100%;
-  width: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 body .hero .main {
   margin-left: 50%;
   transform: translateX(-50%);
-  margin-bottom: 50%;
-  padding-top: 50vh;
-  padding-bottom: 50vh;
-  display: flex;
+  padding-bottom: 300px;
+  align-items: center;
+  margin-top: 20%;
+}
+body .hero .main div {
+  width: 250px;
+}
+body .hero .main p {
+  text-align: center;
+  width: 350px;
+  height: 100px;
+}
+body .hero header .container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90%;
+}
+body .hero header .container .hamburgerIcon {
+  display: block;
+  padding-bottom: 8px;
+}
+body .hero header .container h4 {
+  transform: translateX(-100px);
 }
 body .hero header .container ul li {
   display: none;
