@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+html {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Manrope", "sans-serif";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: 1.15px;
+}
+
+h4 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 1.7px;
+}
+
+h6 {
+  font-size: 18px;
+  letter-spacing: 1.3px;
+}
+
+div {
+  font-size: 14px;
+  letter-spacing: 10px;
+}
+
+p {
+  font-size: 15px;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body .hero {
+  background-image: url(../home/mobile/image-header.jpg);
+  height: 100%;
+}
+body .hero header .container {
+  margin-left: 0;
+  margin-right: 0;
+  min-width: 100%;
+}
+body .hero header .container .hamburgerIcon {
+  padding-left: 5vw;
+}
+body .hero header .container h4 {
+  margin-left: 40%;
+  max-width: 143px;
+}
+body .hero button {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 10px;
+  padding-right: 5vw;
+  margin: 0;
+}
+body .hero .main p {
+  font-size: 14px;
+}
+body .hero .main h1 {
+  font-size: 32px;
+}/*# sourceMappingURL=mobile-main.css.map */

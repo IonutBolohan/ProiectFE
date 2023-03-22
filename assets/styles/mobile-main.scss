@@ -1,0 +1,41 @@
+@import "colors";
+@import "typography";
+@import "base";
+@import "dimensions";
+@import "spacings";
+@import "extends";
+body {
+  .hero {
+    background-image: url(../home/mobile/image-header.jpg);
+    height: 100%;
+    header {
+      .container {
+        margin-left: 0;
+        margin-right: 0;
+        min-width: 100%;
+        .hamburgerIcon {
+          padding-left: 5vw;
+        }
+        h4 {
+          margin-left: 40%;
+          max-width: 143px;
+        }
+      }
+    }
+    button {
+      background-color: transparent;
+      border: none;
+      padding-bottom: 10px;
+      padding-right: 5vw;
+      margin: 0;
+    }
+    .main {
+      p {
+        font-size: $overline;
+      }
+      h1 {
+        font-size: $h3;
+      }
+    }
+  }
+}

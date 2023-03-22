@@ -80,21 +80,6 @@ body .hero {
   background-repeat: no-repeat;
   background-size: cover;
 }
-body .hero .main {
-  margin-left: 50%;
-  transform: translateX(-50%);
-  padding-bottom: 300px;
-  align-items: center;
-  margin-top: 20%;
-}
-body .hero .main div {
-  width: 250px;
-}
-body .hero .main p {
-  text-align: center;
-  width: 350px;
-  height: 100px;
-}
 body .hero header .container {
   margin-left: 5vw;
   margin-right: 5vw;
@@ -109,6 +94,21 @@ body .hero header .container h4 {
 }
 body .hero header .container ul li {
   display: none;
+}
+body .hero .main {
+  margin-left: 50%;
+  transform: translateX(-50%);
+  padding-bottom: 300px;
+  align-items: center;
+  margin-top: 20%;
+}
+body .hero .main div {
+  width: 250px;
+}
+body .hero .main p {
+  text-align: center;
+  width: 350px;
+  height: 100px;
 }
 body .shopMenu {
   margin-bottom: 25vh;
