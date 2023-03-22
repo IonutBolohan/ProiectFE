@@ -5,76 +5,6 @@
 @import "spacings";
 @import "extends";
 body {
-  .speakersEarphones {
-    .speakerZx9 {
-      display: flex;
-      flex-direction: column;
-      justify-content: center;
-      height: 130vh;
-      .imgZx9 {
-        max-height: 230px;
-        min-width: 210px;
-        top: 70px;
-        left: 37%;
-      }
-      .textSpeakers {
-        transform: translateX(-28vw);
-        padding-top: 250px;
-
-        h1 {
-          width: 320px;
-          text-align: center;
-          padding-top: 80px;
-          padding-bottom: 20px;
-        }
-        p {
-          width: 320px;
-          text-align: center;
-          padding-bottom: 20px;
-        }
-        .blackbtn {
-          margin-left: 80px;
-        }
-      }
-    }
-  }
-
-  .shopMenu {
-    margin-bottom: 25vh;
-    .item {
-      margin-top: 25vh;
-      .img {
-        width: 90%;
-        left: 2vw;
-      }
-      .text {
-        h6 {
-          font-size: $paragSize;
-          font-weight: bold;
-        }
-      }
-    }
-  }
-  .speakerZx7 {
-    .headZx7 {
-      padding-top: 40px;
-    }
-  }
-  .aboutStore {
-    margin-top: 25vh;
-    flex-direction: column-reverse;
-    .about {
-      text-align: center;
-      width: 90%;
-      margin-left: 5%;
-      p {
-        margin-left: 5%;
-        padding-left: 5%;
-        height: 20px;
-      }
-    }
-  }
-
   .hero {
     background-image: url(../home/tablet/image-header.jpg);
     height: 100%;
@@ -115,6 +45,104 @@ body {
       }
     }
   }
+  .shopMenu {
+    margin-bottom: 25vh;
+    .headphones {
+      margin-left: 5vw;
+    }
+    .earphones {
+      margin-right: 5vw;
+    }
+    .item {
+      margin-top: 25vh;
+      .img {
+        width: 90%;
+        left: 2vw;
+      }
+      .text {
+        h6 {
+          font-size: $paragSize;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .speakersEarphones {
+    ul {
+      li {
+        margin-left: 5vw;
+        margin-right: 5vw;
+      }
+    }
+    .speakerZx9 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 130vh;
+      .circles {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: calc(-170px);
+      }
+      .imgZx9 {
+        max-height: 230px;
+        min-width: 210px;
+        top: 70px;
+        left: 37%;
+      }
+      .textSpeakers {
+        transform: translateX(-24vw);
+        padding-top: 250px;
+
+        h1 {
+          width: 320px;
+          text-align: center;
+          padding-top: 80px;
+          padding-bottom: 20px;
+        }
+        p {
+          width: 320px;
+          text-align: center;
+          padding-bottom: 20px;
+        }
+        .blackbtn {
+          margin-left: 80px;
+        }
+      }
+    }
+    .speakerZx7 {
+      .imgZx7 {
+        width: 90vw;
+      }
+      .headZx7 {
+        padding-top: 40px;
+      }
+    }
+  }
+
+  .aboutStore {
+    margin-left: 5vw;
+    margin-right: 5vw;
+    margin-top: 25vh;
+    flex-direction: column-reverse;
+    .about {
+      text-align: center;
+      width: 90%;
+      margin-left: 5%;
+      h2 {
+        width: 80%;
+        margin-left: 10%;
+      }
+      p {
+        margin-left: 5%;
+        padding-left: 5%;
+        height: 20px;
+      }
+    }
+  }
+
   .footer {
     .text {
       padding-left: 5vw;
