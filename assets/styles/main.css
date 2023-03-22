@@ -203,11 +203,15 @@ body .hero header .container {
   justify-content: space-between;
   align-items: flex-end;
   color: #ffffff;
-  width: 80vw;
+  width: 80%;
   height: 96px;
   margin-left: 10vw;
+  margin-right: 10vw;
   border-bottom: 1px solid #ffffff;
   padding-bottom: 34px;
+}
+body .hero header .container .hamburgerIcon {
+  display: none;
 }
 body .hero header .container h4 {
   text-transform: lowercase;
@@ -239,6 +243,7 @@ body .hero .main {
   color: #ffffff;
   margin-left: 10vw;
   margin-top: 10vh;
+  margin-bottom: 10vh;
   display: flex;
   flex-direction: column;
   flex-wrap: nowrap;
@@ -286,18 +291,18 @@ body .shopMenu .earphones {
   margin-right: 10vw;
 }
 body .shopMenu .item {
-  width: 350px;
-  height: 204px;
+  width: 50%;
+  height: 50%;
   background-color: #f1f1f1;
-  margin-top: 208px;
+  margin-top: 50vh;
   position: relative;
   border-radius: 8px;
 }
 body .shopMenu .item .img {
-  height: 160px;
-  width: 150px;
+  height: 100%;
+  width: 60%;
   bottom: 100px;
-  left: 90px;
+  left: 5vw;
   margin: 0;
   padding: 0;
   position: absolute;
@@ -422,10 +427,10 @@ body .aboutStore .about {
   flex-direction: column;
   justify-content: center;
   width: 100%;
-  padding-right: 7vw;
 }
 body .aboutStore .about p {
   color: grey;
+  margin-right: 60px;
 }
 body .aboutStore .headphonesManImg {
   border-radius: 8px;
