@@ -30,11 +30,103 @@ body {
       margin: 0;
     }
     .main {
+      div {
+        align-self: start;
+        padding-left: 12px;
+        margin: 0;
+      }
       p {
         font-size: $overline;
       }
       h1 {
         font-size: $h3;
+        align-self: start;
+        margin: 0;
+      }
+    }
+  }
+  .shopMenu {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0;
+    margin-bottom: 25vh;
+    .headphones {
+      margin-left: 1vw;
+    }
+    .earphones {
+      margin-right: 1vw;
+    }
+    .item {
+      margin-top: 25vh;
+      width: 90%;
+      height: 45vh;
+      .img {
+        max-width: 60%;
+        left: 18vw;
+        bottom: 100px;
+      }
+      .text {
+        margin-top: 120px;
+        h6 {
+          font-size: $paragSize;
+          font-weight: bold;
+        }
+      }
+    }
+  }
+  .speakersEarphones {
+    ul {
+      li {
+        margin-left: 1vw;
+        margin-right: 1vw;
+      }
+    }
+    .speakerZx9 {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      height: 100vh;
+      .circles {
+        margin: 0;
+        padding: 0;
+        position: absolute;
+        right: 0;
+        top: calc(-170px);
+      }
+      .imgZx9 {
+        margin: 0;
+        padding: 0;
+        max-height: 200px;
+        min-width: 180px;
+      }
+      .textSpeakers {
+        transform: translateX(-24vw);
+        padding-top: 250px;
+
+        h1 {
+          width: 220px;
+          text-align: center;
+          padding-top: 80px;
+          padding-bottom: 20px;
+          font-size: $h3;
+        }
+        p {
+          width: 220px;
+          text-align: center;
+          padding-bottom: 20px;
+        }
+        .blackbtn {
+          margin-left: 20px;
+        }
+      }
+    }
+    .speakerZx7 {
+      .imgZx7 {
+        width: 90vw;
+      }
+      .headZx7 {
+        padding-top: 40px;
       }
     }
   }

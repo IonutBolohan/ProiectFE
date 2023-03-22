@@ -97,9 +97,94 @@ body .hero button {
   padding-right: 5vw;
   margin: 0;
 }
+body .hero .main div {
+  align-self: start;
+  padding-left: 12px;
+  margin: 0;
+}
 body .hero .main p {
   font-size: 14px;
 }
 body .hero .main h1 {
   font-size: 32px;
+  align-self: start;
+  margin: 0;
+}
+body .shopMenu {
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 0;
+  margin-bottom: 25vh;
+}
+body .shopMenu .headphones {
+  margin-left: 1vw;
+}
+body .shopMenu .earphones {
+  margin-right: 1vw;
+}
+body .shopMenu .item {
+  margin-top: 25vh;
+  width: 90%;
+  height: 45vh;
+}
+body .shopMenu .item .img {
+  max-width: 60%;
+  left: 18vw;
+  bottom: 100px;
+}
+body .shopMenu .item .text {
+  margin-top: 120px;
+}
+body .shopMenu .item .text h6 {
+  font-size: 15px;
+  font-weight: bold;
+}
+body .speakersEarphones ul li {
+  margin-left: 1vw;
+  margin-right: 1vw;
+}
+body .speakersEarphones .speakerZx9 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  height: 100vh;
+}
+body .speakersEarphones .speakerZx9 .circles {
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  right: 0;
+  top: -170px;
+}
+body .speakersEarphones .speakerZx9 .imgZx9 {
+  margin: 0;
+  padding: 0;
+  max-height: 200px;
+  min-width: 180px;
+}
+body .speakersEarphones .speakerZx9 .textSpeakers {
+  transform: translateX(-24vw);
+  padding-top: 250px;
+}
+body .speakersEarphones .speakerZx9 .textSpeakers h1 {
+  width: 220px;
+  text-align: center;
+  padding-top: 80px;
+  padding-bottom: 20px;
+  font-size: 32px;
+}
+body .speakersEarphones .speakerZx9 .textSpeakers p {
+  width: 220px;
+  text-align: center;
+  padding-bottom: 20px;
+}
+body .speakersEarphones .speakerZx9 .textSpeakers .blackbtn {
+  margin-left: 20px;
+}
+body .speakersEarphones .speakerZx7 .imgZx7 {
+  width: 90vw;
+}
+body .speakersEarphones .speakerZx7 .headZx7 {
+  padding-top: 40px;
 }/*# sourceMappingURL=mobile-main.css.map */
