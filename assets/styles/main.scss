@@ -235,24 +235,24 @@ body {
       display: flex;
       justify-content: space-between;
       gap: 20px;
-    }
-    .imgYx1 {
-      max-width: 510px;
-      width: 40vw;
-    }
-    .aboutYx1 {
-      background-color: $strongGrey;
-      width: 100%;
-      padding-top: 7vh;
-      padding-left: 7vw;
-      border-radius: 8px;
-    }
-    .productBtnLight {
-      @extend %commonLightButtonProp;
-      &:active {
-        color: $white;
-        background-color: $black;
-        cursor: pointer;
+
+      .imgYx1 {
+        width: 40vw;
+      }
+      .aboutYx1 {
+        background-color: $strongGrey;
+        width: 40vw;
+        padding-top: 7vh;
+        padding-left: 7vw;
+        border-radius: 8px;
+      }
+      .productBtnLight {
+        @extend %commonLightButtonProp;
+        &:active {
+          color: $white;
+          background-color: $black;
+          cursor: pointer;
+        }
       }
     }
   }

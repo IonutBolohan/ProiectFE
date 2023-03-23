@@ -34,7 +34,7 @@ body {
       transform: translateX(-50%);
       padding-bottom: 300px;
       align-items: center;
-      margin-top: 20%;
+      margin-top: 30%;
       div {
         width: 250px;
       }
@@ -88,7 +88,7 @@ body {
       }
       .imgZx9 {
         max-height: 230px;
-        min-width: 210px;
+        max-width: 210px;
         top: 70px;
         left: 37%;
       }
@@ -118,6 +118,17 @@ body {
       }
       .headZx7 {
         padding-top: 40px;
+      }
+    }
+    .earphonesYx1 {
+      .imgYx1 {
+        width: 90vw;
+      }
+      .aboutYx1 {
+        background-color: $strongGrey;
+        width: 90vw;
+        padding-top: 17vh;
+        border-radius: 8px;
       }
     }
   }

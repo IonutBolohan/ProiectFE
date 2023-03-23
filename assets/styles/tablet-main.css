@@ -100,7 +100,7 @@ body .hero .main {
   transform: translateX(-50%);
   padding-bottom: 300px;
   align-items: center;
-  margin-top: 20%;
+  margin-top: 30%;
 }
 body .hero .main div {
   width: 250px;
@@ -149,7 +149,7 @@ body .speakersEarphones .speakerZx9 .circles {
 }
 body .speakersEarphones .speakerZx9 .imgZx9 {
   max-height: 230px;
-  min-width: 210px;
+  max-width: 210px;
   top: 70px;
   left: 37%;
 }
@@ -176,6 +176,15 @@ body .speakersEarphones .speakerZx7 .imgZx7 {
 }
 body .speakersEarphones .speakerZx7 .headZx7 {
   padding-top: 40px;
+}
+body .speakersEarphones .earphonesYx1 .imgYx1 {
+  width: 90vw;
+}
+body .speakersEarphones .earphonesYx1 .aboutYx1 {
+  background-color: #f1f1f1;
+  width: 90vw;
+  padding-top: 17vh;
+  border-radius: 8px;
 }
 body .aboutStore {
   margin-left: 5vw;
