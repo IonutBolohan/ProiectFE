@@ -192,6 +192,9 @@ body .aboutStore {
   margin-top: 25vh;
   flex-direction: column-reverse;
 }
+body .aboutStore .headphonesManImg {
+  width: 90vw;
+}
 body .aboutStore .about {
   text-align: center;
   width: 90%;
