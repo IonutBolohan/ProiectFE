@@ -101,41 +101,9 @@ body header .container, body .footer .container {
   width: 80vw;
   height: 96px;
   margin-left: 10vw;
+  margin-right: 10vw;
   border-bottom: 1px solid #ffffff;
   padding-bottom: 34px;
-}
-body header .container .container, body .footer .container .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  color: #ffffff;
-  width: 80vw;
-  height: 96px;
-  margin-left: 10vw;
-  border-bottom: 1px solid #ffffff;
-  padding-bottom: 34px;
-}
-body header .container .container h4, body .footer .container .container h4 {
-  text-transform: lowercase;
-  width: 143px;
-  margin: 0;
-}
-body header .container .container ul, body .footer .container .container ul {
-  display: flex;
-  list-style: none;
-  gap: 34px;
-  font-weight: 700;
-  font-size: 13px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin: 0;
-  padding-bottom: 6px;
-}
-body header .container button, body .footer .container button {
-  background-color: transparent;
-  border: none;
-  padding-bottom: 10px;
-  margin: 0;
 }
 body header .container h4, body .footer .container h4 {
   text-transform: lowercase;
@@ -153,7 +121,7 @@ body header .container ul, body .footer .container ul {
   margin: 0;
   padding-bottom: 6px;
 }
-body header button, body .footer button {
+body header .container button, body .footer .container button {
   background-color: transparent;
   border: none;
   padding-bottom: 10px;
