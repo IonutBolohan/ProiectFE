@@ -109,7 +109,7 @@ body .speakersEarphones .speakerZx9 .textSpeakers .blackbtn {
   background-color: #000000;
 }
 
-body .speakersEarphones .productBtnLight, body .speakersEarphones .speakerZx7 .headZx7 .lightBtn {
+body .speakersEarphones .earphonesYx1 .productBtnLight, body .speakersEarphones .speakerZx7 .headZx7 .lightBtn {
   width: 160px;
   height: 48px;
   border: none;
@@ -404,18 +404,17 @@ body .speakersEarphones .earphonesYx1 {
   justify-content: space-between;
   gap: 20px;
 }
-body .speakersEarphones .imgYx1 {
-  max-width: 510px;
+body .speakersEarphones .earphonesYx1 .imgYx1 {
   width: 40vw;
 }
-body .speakersEarphones .aboutYx1 {
+body .speakersEarphones .earphonesYx1 .aboutYx1 {
   background-color: #f1f1f1;
-  width: 100%;
+  width: 40vw;
   padding-top: 7vh;
   padding-left: 7vw;
   border-radius: 8px;
 }
-body .speakersEarphones .productBtnLight:active {
+body .speakersEarphones .earphonesYx1 .productBtnLight:active {
   color: #ffffff;
   background-color: #000000;
   cursor: pointer;
