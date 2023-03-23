@@ -218,7 +218,7 @@ body .speakersEarphones .earphonesYx1 .aboutYx1 h4 {
   font-size: 40px;
 }
 body .footer {
-  height: 100vh;
+  height: 130vh;
 }
 body .footer .text {
   padding-left: 0;
@@ -229,6 +229,7 @@ body .footer .text {
   margin-left: 5vw;
   margin-right: 5vw;
   margin-top: 30vh;
+  padding: 90px 50px 40px 50px;
 }
 body .footer .container {
   display: flex;
@@ -236,6 +237,10 @@ body .footer .container {
   align-items: center;
   gap: 30px;
   padding-left: 50px;
+}
+body .footer .container h4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
 }
 body .footer .container ul {
   display: flex;
@@ -246,8 +251,8 @@ body .footer .container ul {
   text-align: center;
 }
 body .footer .logo {
-  padding-top: 15vh;
+  padding-top: 10vh;
   align-items: center;
   justify-content: center;
-  padding-left: 50px;
+  padding-left: 75px;
 }/*# sourceMappingURL=mobile-main.css.map */

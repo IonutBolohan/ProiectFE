@@ -211,6 +211,7 @@ body .aboutStore .about p {
 }
 body .footer .text {
   padding-left: 5vw;
+  padding-top: 5px;
 }
 body .footer .container {
   margin-left: 5vw;
