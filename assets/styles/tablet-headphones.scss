@@ -6,23 +6,15 @@
 @import "extends";
 body {
   header {
-    @extend %commonHeader;
-    @extend %commonNavBar;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    h2 {
-      color: $white;
-    }
+    @extend %commonHead;
   }
   .content {
     display: grid;
-    grid-template-columns: 80vw;
-    grid-template-rows: 40vw 40vw 40vw 20vw 40vw;
-    width: 80vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    grid-template-columns: 90vw;
+    grid-template-rows: 45vw 45vw 45vw 22.5vw 45vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
     row-gap: 250px;
     .xx99Mark2 {
       grid-column: 1/2;
@@ -33,7 +25,8 @@ body {
     .xx59 {
       display: flex;
       justify-content: space-between;
-      column-gap: 10vw;
+      flex-direction: column;
+      row-gap: 10vw;
       img {
         border-radius: 8px;
       }
@@ -90,9 +83,5 @@ body {
       grid-row: 5/6;
       @extend %commonAboutStore;
     }
-  }
-  .footer {
-    margin-left: 0;
-    @extend %commonFooter;
   }
 }
