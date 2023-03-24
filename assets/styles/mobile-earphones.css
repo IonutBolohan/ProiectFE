@@ -74,16 +74,6 @@ img {
   max-width: 100%;
 }
 
-body .content .yx1Earphones .main .btnProduct {
-  width: 160px;
-  height: 48px;
-  border: none;
-  font-size: 13px;
-  letter-spacing: 1px;
-  font-weight: 700;
-  text-transform: uppercase;
-}
-
 body .content .shopMenu .item .text .shopBtn {
   font-size: 13px;
   font-weight: 700;
@@ -133,24 +123,6 @@ body .content .shopMenu .item .text h6 {
 body .content .shopMenu .item .text .shopBtn:active {
   color: #d87d4a;
   cursor: pointer;
-}
-
-body .content .aboutStore {
-  display: flex;
-  justify-content: space-between;
-}
-body .content .aboutStore .about {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 100%;
-  padding-right: 7vw;
-}
-body .content .aboutStore .about p {
-  color: grey;
-}
-body .content .aboutStore .headphonesManImg {
-  border-radius: 8px;
 }
 
 body .footer {
@@ -214,60 +186,13 @@ body header button {
 }
 
 body .content {
-  display: grid;
-  grid-template-columns: 80vw;
-  grid-template-rows: 40vw 20vw 40vw;
-  width: 80vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  row-gap: 250px;
-}
-body .content .yx1Earphones {
-  grid-column: 1/2;
-  grid-row: 1/2;
+  grid-template-rows: 150vw 150vw 150vw;
 }
 body .content .shopMenu {
   grid-column: 1/2;
   grid-row: 2/3;
-}
-body .content .aboutStore {
-  grid-column: 1/2;
-  grid-row: 3/4;
-}
-body .content .yx1Earphones {
-  display: flex;
-  justify-content: space-between;
-  -moz-column-gap: 10vw;
-       column-gap: 10vw;
-}
-body .content .yx1Earphones img {
-  border-radius: 8px;
-}
-body .content .yx1Earphones .main {
-  display: flex;
-  justify-content: center;
   flex-direction: column;
-}
-body .content .yx1Earphones .main div,
-body .content .yx1Earphones .main h2,
-body .content .yx1Earphones .main p {
-  margin: 0;
-  margin-bottom: 24px;
-}
-body .content .yx1Earphones .main div {
-  font-weight: 400;
-  color: #d87d4a;
-}
-body .content .yx1Earphones .main h2 {
-  font-weight: 700;
-  width: 50%;
-}
-body .content .yx1Earphones .main p {
-  color: grey;
-}
-body .content .yx1Earphones .main .btnProduct {
-  background-color: #d87d4a;
-  color: #ffffff;
+  align-items: center;
 }
 body .footer {
   height: 120vh;

@@ -194,7 +194,7 @@ body .content {
   width: 90vw;
   margin-left: 5vw;
   margin-right: 5vw;
-  row-gap: 100px;
+  row-gap: 150px;
 }
 body .content .yx1Earphones {
   grid-column: 1/2;
@@ -210,6 +210,7 @@ body .content .yx1Earphones .main {
 body .content .shopMenu {
   grid-column: 1/2;
   grid-row: 2/3;
+  padding-top: 10vw;
 }
 body .footer {
   height: 60vh;
