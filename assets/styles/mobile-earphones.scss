@@ -4,16 +4,10 @@
 @import "dimensions";
 @import "spacings";
 @import "extends";
+@import "mobile-extends";
 body {
   header {
-    @extend %commonHeader;
-    @extend %commonNavBar;
-    h2 {
-      color: $white;
-      width: 10vw;
-      margin-left: 42vw;
-      padding-top: 50px;
-    }
+    @extend %commonHead;
   }
   .content {
     display: grid;
@@ -26,7 +20,6 @@ body {
     .yx1Earphones {
       grid-column: 1/2;
       grid-row: 1/2;
-      align-items: center;
     }
     .shopMenu {
       grid-column: 1/2;
@@ -37,12 +30,10 @@ body {
       grid-column: 1/2;
       grid-row: 3/4;
       @extend %commonAboutStore;
-      align-items: center;
     }
     .yx1Earphones {
       display: flex;
       justify-content: space-between;
-      align-items: center;
       column-gap: 10vw;
       img {
         border-radius: 8px;
@@ -80,7 +71,7 @@ body {
     }
   }
   .footer {
-    margin-left: 0;
-    @extend %commonFooter;
+    @extend %commonMobileFooter;
+    height: 120vh;
   }
 }

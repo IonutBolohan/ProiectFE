@@ -1,0 +1,216 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+html {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Manrope", "sans-serif";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: 1.15px;
+}
+
+h4 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 1.7px;
+}
+
+h6 {
+  font-size: 18px;
+  letter-spacing: 1.3px;
+}
+
+div {
+  font-size: 14px;
+  letter-spacing: 10px;
+}
+
+p {
+  font-size: 15px;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body .content .shopMenu .item .text .shopBtn {
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 1px;
+  color: grey;
+  text-transform: uppercase;
+  border: none;
+  display: flex;
+  flex-direction: row;
+  gap: 10px;
+  align-items: center;
+}
+
+body .content .shopMenu {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  -moz-column-gap: 30px;
+       column-gap: 30px;
+}
+body .content .shopMenu .item {
+  width: 350px;
+  height: 204px;
+  background-color: #f1f1f1;
+  position: relative;
+  border-radius: 8px;
+}
+body .content .shopMenu .item .img {
+  height: 160px;
+  width: 150px;
+  bottom: 100px;
+  margin: 0;
+  padding: 0;
+  position: absolute;
+  left: 80px;
+}
+body .content .shopMenu .item .text {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-top: 70px;
+}
+body .content .shopMenu .item .text h6 {
+  margin-bottom: 20px;
+}
+body .content .shopMenu .item .text .shopBtn:active {
+  color: #d87d4a;
+  cursor: pointer;
+}
+
+body .content .aboutStore {
+  display: flex;
+  justify-content: space-between;
+}
+body .content .aboutStore .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-right: 7vw;
+}
+body .content .aboutStore .about p {
+  color: grey;
+}
+body .content .aboutStore .headphonesManImg {
+  border-radius: 8px;
+}
+
+body .content .aboutStore {
+  flex-direction: column-reverse;
+}
+body .content .aboutStore .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  padding: 0;
+}
+
+body .footer .text {
+  padding-left: 5vw;
+  padding-top: 5px;
+}
+body .footer .container {
+  margin-left: 5vw;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+body .footer .container ul {
+  padding-left: 0;
+}
+
+body header .container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90%;
+}
+body header .container .hamburgerIcon {
+  display: block;
+  padding-bottom: 8px;
+}
+body header .container h4 {
+  transform: translateX(-100px);
+}
+body header .container ul li {
+  display: none;
+}
+
+body .content {
+  grid-template-columns: 90vw;
+  grid-template-rows: 80vw 40vw 80vw;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  row-gap: 100px;
+}
+body .content .yx1Earphones {
+  grid-column: 1/2;
+  grid-row: 1/2;
+  flex-direction: column;
+  -moz-column-gap: 0;
+       column-gap: 0;
+}
+body .content .yx1Earphones .main {
+  align-items: center;
+  text-align: center;
+}
+body .content .shopMenu {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+body .footer {
+  height: 60vh;
+}/*# sourceMappingURL=tablet-earphones.css.map */
