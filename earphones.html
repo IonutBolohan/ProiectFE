@@ -10,11 +10,28 @@
       href="assets/favicon-32x32.png"
     />
     <link href="assets/styles/earphones.css" rel="stylesheet" />
+    <link
+      href="assets/styles/tablet-earphones.css"
+      rel="stylesheet"
+      media="screen
+and (max-width: 1024px)"
+    />
+    <link
+      href="assets/styles/mobile-earphones.css"
+      rel="stylesheet"
+      media="screen
+and (max-width: 768px) and (min-width: 568px)"
+    />
     <title>Earphones</title>
   </head>
   <body>
     <header>
       <div class="container">
+        <img
+          src="../ProiectFE/assets/shared/tablet/icon-hamburger.svg "
+          alt="Hamburger icon"
+          class="hamburgerIcon"
+        />
         <h4>audiophile</h4>
         <nav>
           <ul>
@@ -32,10 +49,25 @@
     </header>
     <section class="content">
       <section class="yx1Earphones">
-        <img
-          src="../ProiectFE/assets/product-yx1-earphones/desktop/image-category-page-preview.jpg"
-          alt="imgX99-2"
-        />
+        <picture>
+          <source
+            media="(max-width: 768px) and (min-width: 568px)"
+            srcset="
+              ../ProiectFE/assets/product-yx1-earphones/mobile/image-category-page-preview.jpg
+            "
+          />
+          <source
+            media="(max-width:1024px)"
+            srcset="
+              ../ProiectFE/assets/product-yx1-earphones/tablet/image-category-page-preview.jpg
+            "
+          />
+          <img
+            src="../ProiectFE/assets/product-yx1-earphones/desktop/image-category-page-preview.jpg"
+            alt="imgX99-2"
+          />
+        </picture>
+
         <div class="main">
           <div>new product</div>
           <h2>YX1 WIRELESS EARPHONES</h2>
@@ -113,11 +145,21 @@
             make Audiophile the best place to buy your portable audio equipment.
           </p>
         </div>
-        <img
-          src="/ProiectFE/assets/shared/desktop/image-best-gear.jpg"
-          alt="image-man-headphones"
-          class="headphonesManImg"
-        />
+        <picture>
+          <source
+            media="(max-width: 768px) and (min-width: 568px)"
+            srcset="/ProiectFE/assets/shared/mobile/image-best-gear.jpg"
+          />
+          <source
+            media="(max-width:1024px)"
+            srcset="/ProiectFE/assets/shared/tablet/image-best-gear.jpg"
+          />
+          <img
+            src="/ProiectFE/assets/shared/desktop/image-best-gear.jpg"
+            alt="image-man-headphones"
+            class="headphonesManImg"
+          />
+        </picture>
       </section>
     </section>
     <section class="footer">
