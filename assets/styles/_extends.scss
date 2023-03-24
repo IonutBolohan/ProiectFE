@@ -61,25 +61,7 @@
   padding: 0;
   margin-bottom: 250px;
 }
-%commonHead {
-  .container {
-    margin-left: 5vw;
-    margin-right: 5vw;
-    width: 90%;
-    .hamburgerIcon {
-      display: block;
-      padding-bottom: 8px;
-    }
-    h4 {
-      transform: translateX(-100px);
-    }
-    ul {
-      li {
-        display: none;
-      }
-    }
-  }
-}
+
 %commonNavBar {
   .container {
     display: flex;
