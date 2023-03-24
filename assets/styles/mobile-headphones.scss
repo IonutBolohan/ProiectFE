@@ -1,0 +1,66 @@
+@import "colors";
+@import "typography";
+@import "base";
+@import "dimensions";
+@import "spacings";
+@import "extends";
+body {
+  header {
+    @extend %commonHead;
+  }
+  .content {
+    grid-template-columns: 90vw;
+    grid-template-rows: 150vw 150vw 150vw 150vw 150vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    row-gap: 150px;
+
+    .xx99Mark2,
+    .xx99Mark1,
+    .xx59 {
+      flex-direction: column;
+      align-items: center;
+      column-gap: 0;
+
+      .main {
+        width: 90%;
+        text-align: center;
+        padding-top: 20px;
+      }
+    }
+
+    .xx99Mark1 {
+      flex-direction: column-reverse;
+    }
+    .xx59 {
+      h2 {
+        width: 72%;
+      }
+    }
+    .shopMenu {
+      flex-direction: column;
+      align-items: center;
+      .item {
+        .img {
+          left: 50px;
+        }
+      }
+    }
+    .aboutStore {
+      flex-direction: column-reverse;
+      .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        padding: 0;
+        padding-left: 10vw;
+      }
+    }
+  }
+  .footer {
+    height: 60vh;
+  }
+}

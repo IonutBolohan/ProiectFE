@@ -160,10 +160,10 @@ body .content .shopMenu .item .img {
   height: 160px;
   width: 150px;
   bottom: 100px;
-  left: 90px;
   margin: 0;
   padding: 0;
   position: absolute;
+  left: 80px;
 }
 body .content .shopMenu .item .text {
   display: flex;

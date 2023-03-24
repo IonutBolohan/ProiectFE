@@ -1,1 +1,143 @@
-/*# sourceMappingURL=mobile-headphones.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+html {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Manrope", "sans-serif";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: 1.15px;
+}
+
+h4 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 1.7px;
+}
+
+h6 {
+  font-size: 18px;
+  letter-spacing: 1.3px;
+}
+
+div {
+  font-size: 14px;
+  letter-spacing: 10px;
+}
+
+p {
+  font-size: 15px;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body header .container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90%;
+}
+body header .container .hamburgerIcon {
+  display: block;
+  padding-bottom: 8px;
+}
+body header .container h4 {
+  transform: translateX(-100px);
+}
+body header .container ul li {
+  display: none;
+}
+
+body .content {
+  grid-template-columns: 90vw;
+  grid-template-rows: 150vw 150vw 150vw 150vw 150vw;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  row-gap: 150px;
+}
+body .content .xx99Mark2,
+body .content .xx99Mark1,
+body .content .xx59 {
+  flex-direction: column;
+  align-items: center;
+  -moz-column-gap: 0;
+       column-gap: 0;
+}
+body .content .xx99Mark2 .main,
+body .content .xx99Mark1 .main,
+body .content .xx59 .main {
+  width: 90%;
+  text-align: center;
+  padding-top: 20px;
+}
+body .content .xx99Mark1 {
+  flex-direction: column-reverse;
+}
+body .content .xx59 h2 {
+  width: 72%;
+}
+body .content .shopMenu {
+  flex-direction: column;
+  align-items: center;
+}
+body .content .shopMenu .item .img {
+  left: 50px;
+}
+body .content .aboutStore {
+  flex-direction: column-reverse;
+}
+body .content .aboutStore .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  padding: 0;
+  padding-left: 10vw;
+}
+body .footer {
+  height: 60vh;
+}/*# sourceMappingURL=mobile-headphones.css.map */
