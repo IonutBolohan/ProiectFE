@@ -74,20 +74,64 @@ img {
   max-width: 100%;
 }
 
-body header .container {
+body .footer {
+  height: 130vh;
+}
+body .footer .text {
+  padding-left: 0;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  width: 90vw;
   margin-left: 5vw;
   margin-right: 5vw;
-  width: 90%;
+  margin-top: 30vh;
+  padding: 90px 50px 40px 50px;
+}
+body .footer .container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  padding-left: 50px;
+}
+body .footer .container h4 {
+  padding-top: 40px;
+  padding-bottom: 40px;
+}
+body .footer .container ul {
+  display: flex;
+  flex-direction: column;
+  padding-left: 20px;
+  margin: 0;
+  row-gap: 20px;
+  text-align: center;
+}
+body .footer .logo {
+  padding-top: 10vh;
+  align-items: center;
+  justify-content: center;
+  padding-left: 75px;
+}
+
+body header .container {
+  margin-left: 0;
+  margin-right: 0;
+  min-width: 100%;
 }
 body header .container .hamburgerIcon {
-  display: block;
-  padding-bottom: 8px;
+  padding-left: 5vw;
 }
 body header .container h4 {
-  transform: translateX(-100px);
+  margin-left: 30%;
+  max-width: 143px;
 }
-body header .container ul li {
-  display: none;
+body header button {
+  background-color: transparent;
+  border: none;
+  padding-bottom: 10px;
+  padding-right: 5vw;
+  margin: 0;
 }
 
 body .content {
@@ -139,5 +183,5 @@ body .content .aboutStore .about {
   padding-left: 10vw;
 }
 body .footer {
-  height: 60vh;
+  height: 120vh;
 }/*# sourceMappingURL=mobile-headphones.css.map */

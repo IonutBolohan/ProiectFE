@@ -74,6 +74,23 @@ img {
   max-width: 100%;
 }
 
+body .footer .text {
+  padding-left: 5vw;
+  padding-top: 5px;
+}
+body .footer .container {
+  margin-left: 5vw;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+body .footer .container ul {
+  padding-left: 0;
+}
+
 body header .container {
   margin-left: 5vw;
   margin-right: 5vw;

@@ -4,6 +4,7 @@
 @import "dimensions";
 @import "spacings";
 @import "extends";
+@import "tablet-extends";
 body {
   header {
     @extend %commonHead;
@@ -51,6 +52,7 @@ body {
     }
   }
   .footer {
+    @extend %commonTabletFooter;
     height: 60vh;
   }
 }
