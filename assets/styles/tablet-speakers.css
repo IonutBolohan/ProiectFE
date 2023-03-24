@@ -125,78 +125,99 @@ body .content .shopMenu .item .text .shopBtn:active {
   cursor: pointer;
 }
 
-body .footer {
-  height: 130vh;
+body .content .aboutStore {
+  display: flex;
+  justify-content: space-between;
 }
-body .footer .text {
-  padding-left: 0;
+body .content .aboutStore .about {
   display: flex;
   flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-right: 7vw;
+}
+body .content .aboutStore .about p {
+  color: grey;
+}
+body .content .aboutStore .headphonesManImg {
+  border-radius: 8px;
+}
+
+body .content .aboutStore {
+  flex-direction: column-reverse;
+}
+body .content .aboutStore .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
   text-align: center;
-  width: 90vw;
-  margin-left: 5vw;
-  margin-right: 5vw;
-  margin-top: 30vh;
-  padding: 90px 50px 40px 50px;
+  width: 90%;
+  padding: 0;
+}
+
+body .footer .text {
+  padding-left: 5vw;
+  padding-top: 5px;
 }
 body .footer .container {
+  margin-left: 5vw;
+  padding-top: 30px;
+  margin-bottom: 30px;
   display: flex;
   flex-direction: column;
-  align-items: center;
+  align-items: flex-start;
   gap: 30px;
-  padding-left: 50px;
-}
-body .footer .container h4 {
-  padding-top: 40px;
-  padding-bottom: 40px;
 }
 body .footer .container ul {
-  display: flex;
-  flex-direction: column;
-  padding-left: 20px;
-  margin: 0;
-  row-gap: 20px;
-  text-align: center;
-}
-body .footer .logo {
-  padding-top: 10vh;
-  align-items: center;
-  justify-content: center;
-  padding-left: 75px;
+  padding-left: 0;
 }
 
 body header .container {
-  margin-left: 0;
-  margin-right: 0;
-  min-width: 100%;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90%;
 }
 body header .container .hamburgerIcon {
-  padding-left: 5vw;
+  display: block;
+  padding-bottom: 8px;
 }
 body header .container h4 {
-  margin-left: 30%;
-  max-width: 143px;
+  transform: translateX(-100px);
 }
-body header button {
-  background-color: transparent;
-  border: none;
-  padding-bottom: 10px;
-  padding-right: 5vw;
-  margin: 0;
+body header .container ul li {
+  display: none;
 }
 
 body .content {
-  grid-template-rows: 150vw 150vw 150vw;
+  grid-template-columns: 90vw;
+  grid-template-rows: 80vw 80vw 40vw 80vw;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  row-gap: 150px;
 }
-body .content .main {
-  padding-top: 20px;
-}
-body .content .shopMenu {
-  grid-column: 1/2;
-  grid-row: 2/3;
+body .content .zx9Speaker,
+body .content .zx7Speaker {
+  display: flex;
+  justify-content: space-between;
   flex-direction: column;
+  -moz-column-gap: 0;
+       column-gap: 0;
+}
+body .content .zx9Speaker .main,
+body .content .zx7Speaker .main {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  text-align: center;
   align-items: center;
 }
+body .content .zx7Speaker {
+  flex-direction: column-reverse;
+}
+body .content .shopMenu {
+  padding-top: 10vw;
+}
 body .footer {
-  height: 120vh;
-}/*# sourceMappingURL=mobile-earphones.css.map */
+  height: 60vh;
+}/*# sourceMappingURL=tablet-speakers.css.map */

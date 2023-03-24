@@ -74,57 +74,6 @@ img {
   max-width: 100%;
 }
 
-body .content .shopMenu .item .text .shopBtn {
-  font-size: 13px;
-  font-weight: 700;
-  letter-spacing: 1px;
-  color: grey;
-  text-transform: uppercase;
-  border: none;
-  display: flex;
-  flex-direction: row;
-  gap: 10px;
-  align-items: center;
-}
-
-body .content .shopMenu {
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
-}
-body .content .shopMenu .item {
-  width: 350px;
-  height: 204px;
-  background-color: #f1f1f1;
-  position: relative;
-  border-radius: 8px;
-}
-body .content .shopMenu .item .img {
-  height: 160px;
-  width: 150px;
-  bottom: 100px;
-  margin: 0;
-  padding: 0;
-  position: absolute;
-  left: 80px;
-}
-body .content .shopMenu .item .text {
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: center;
-  margin-top: 70px;
-}
-body .content .shopMenu .item .text h6 {
-  margin-bottom: 20px;
-}
-body .content .shopMenu .item .text .shopBtn:active {
-  color: #d87d4a;
-  cursor: pointer;
-}
-
 body .footer {
   height: 130vh;
 }
@@ -186,17 +135,15 @@ body header button {
 }
 
 body .content {
-  grid-template-rows: 150vw 150vw 150vw;
+  grid-template-rows: 150vw 150vw 150vw 150vw;
 }
 body .content .main {
   padding-top: 20px;
 }
 body .content .shopMenu {
-  grid-column: 1/2;
-  grid-row: 2/3;
   flex-direction: column;
   align-items: center;
 }
 body .footer {
   height: 120vh;
-}/*# sourceMappingURL=mobile-earphones.css.map */
+}/*# sourceMappingURL=mobile-speakers.css.map */
