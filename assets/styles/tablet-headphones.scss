@@ -7,7 +7,7 @@
 @import "tablet-extends";
 body {
   header {
-    @extend %commonHead;
+    @extend %commonHeaderTablet;
   }
   .content {
     grid-template-columns: 90vw;
