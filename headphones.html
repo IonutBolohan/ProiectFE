@@ -204,11 +204,25 @@ and (max-width: 768px) and (min-width: 568px)"
             make Audiophile the best place to buy your portable audio equipment.
           </p>
         </div>
-        <img
-          src="/ProiectFE/assets/shared/desktop/image-best-gear.jpg"
-          alt="image-man-headphones"
-          class="headphonesManImg"
-        />
+        <picture>
+          <source
+            media="(max-width: 768px) and (min-width: 568px)"
+            srcset="/ProiectFE/assets/shared/mobile/image-best-gear.jpg"
+            alt="image-man-headphones"
+            class="headphonesManImg"
+          />
+          <source
+            media="(max-width:1024px)"
+            srcset="/ProiectFE/assets/shared/tablet/image-best-gear.jpg"
+            alt="image-man-headphones"
+            class="headphonesManImg"
+          />
+          <img
+            src="/ProiectFE/assets/shared/desktop/image-best-gear.jpg"
+            alt="image-man-headphones"
+            class="headphonesManImg"
+          />
+        </picture>
       </section>
     </section>
     <section class="footer">

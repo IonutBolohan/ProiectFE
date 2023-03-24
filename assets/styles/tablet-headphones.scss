@@ -9,79 +9,48 @@ body {
     @extend %commonHead;
   }
   .content {
-    display: grid;
     grid-template-columns: 90vw;
-    grid-template-rows: 45vw 45vw 45vw 22.5vw 45vw;
+    grid-template-rows: 80vw 80vw 80vw 40vw 80vw;
     width: 90vw;
     margin-left: 5vw;
     margin-right: 5vw;
-    row-gap: 250px;
-    .xx99Mark2 {
-      grid-column: 1/2;
-      grid-row: 1/2;
-    }
+    row-gap: 100px;
+
     .xx99Mark2,
     .xx99Mark1,
     .xx59 {
-      display: flex;
-      justify-content: space-between;
       flex-direction: column;
-      row-gap: 10vw;
-      img {
-        border-radius: 8px;
-      }
+      column-gap: 0;
 
       .main {
-        display: flex;
-        justify-content: center;
-        flex-direction: column;
+        align-items: center;
+      }
+    }
 
-        div,
-        h2,
-        p {
-          margin: 0;
-          margin-bottom: 24px;
-        }
-        div {
-          font-weight: 400;
-          color: $strongOrange;
-        }
-        h2 {
-          font-weight: 700;
-        }
-        p {
-          color: $grey;
-        }
-
-        .btnProduct {
-          background-color: $strongOrange;
-          color: $white;
-          @extend %commonButtonProp;
-
-          &:active {
-            background-color: $lightOrange;
-            cursor: pointer;
-          }
+    .xx99Mark1 {
+      flex-direction: column-reverse;
+    }
+    .shopMenu {
+      .item {
+        .img {
+          left: 50px;
         }
       }
     }
-    .xx99Mark1 {
-      grid-column: 1/2;
-      grid-row: 2/3;
-    }
-    .xx59 {
-      grid-column: 1/2;
-      grid-row: 3/4;
-    }
-    .shopMenu {
-      grid-column: 1/2;
-      grid-row: 4/5;
-      @extend %commonShopMenu;
-    }
     .aboutStore {
-      grid-column: 1/2;
-      grid-row: 5/6;
-      @extend %commonAboutStore;
+      flex-direction: column-reverse;
+      .about {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        width: 90%;
+        padding: 0;
+        padding-left: 10vw;
+      }
     }
+  }
+  .footer {
+    height: 60vh;
   }
 }
