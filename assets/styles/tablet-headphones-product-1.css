@@ -109,16 +109,7 @@ body .content .shopMenu .item .text .shopBtn {
   align-items: center;
 }
 
-body header {
-  background-color: #000000;
-  height: 50vh;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-  margin-bottom: 250px;
-}
-
-body header .container, body .footer .container {
+body .footer .container {
   display: flex;
   justify-content: space-between;
   align-items: flex-end;
@@ -130,12 +121,12 @@ body header .container, body .footer .container {
   border-bottom: 1px solid #ffffff;
   padding-bottom: 34px;
 }
-body header .container h4, body .footer .container h4 {
+body .footer .container h4 {
   text-transform: lowercase;
   width: 143px;
   margin: 0;
 }
-body header .container ul, body .footer .container ul {
+body .footer .container ul {
   display: flex;
   list-style: none;
   gap: 34px;
@@ -146,7 +137,7 @@ body header .container ul, body .footer .container ul {
   margin: 0;
   padding-bottom: 6px;
 }
-body header .container button, body .footer .container button {
+body .footer .container button {
   background-color: transparent;
   border: none;
   padding-bottom: 10px;
@@ -239,26 +230,42 @@ body .footer .logo {
   gap: 15px;
 }
 
-body header {
-  height: 15vh;
+body .content .aboutStore {
+  flex-direction: column-reverse;
 }
+body .content .aboutStore .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  padding: 0;
+}
+
 body header .container {
-  border-bottom: none;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90%;
 }
-body header h2 {
-  color: #ffffff;
-  width: 10vw;
-  margin-left: 42vw;
-  padding-top: 50px;
+body header .container .hamburgerIcon {
+  display: block;
+  padding-bottom: 8px;
 }
+body header .container h4 {
+  transform: translateX(-100px);
+}
+body header .container ul li {
+  display: none;
+}
+
 body .content {
   display: grid;
-  grid-template-columns: 80vw;
-  grid-template-rows: 40vw 30vw 40vw 40vw 20vw 40vw;
-  width: 80vw;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  row-gap: 250px;
+  grid-template-columns: 90vw;
+  grid-template-rows: 80vw 80vw 80vw 80vw 40vw 80vw;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  row-gap: 150px;
 }
 body .content .back {
   color: #000000;
@@ -272,8 +279,8 @@ body .content .xx99Mark2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  -moz-column-gap: 10vw;
-       column-gap: 10vw;
+  -moz-column-gap: 5vw;
+       column-gap: 5vw;
 }
 body .content .xx99Mark2 img {
   border-radius: 8px;
@@ -282,6 +289,7 @@ body .content .xx99Mark2 .main {
   display: flex;
   justify-content: center;
   flex-direction: column;
+  width: 50%;
 }
 body .content .xx99Mark2 .main div,
 body .content .xx99Mark2 .main h2,
@@ -295,6 +303,7 @@ body .content .xx99Mark2 .main div {
 }
 body .content .xx99Mark2 .main h2 {
   font-weight: 700;
+  font-size: 28px;
 }
 body .content .xx99Mark2 .main p {
   color: grey;
@@ -327,6 +336,7 @@ body .content .featuresContent {
   grid-column: 1/2;
   grid-row: 2/3;
   display: flex;
+  flex-direction: column;
   -moz-column-gap: 10vw;
        column-gap: 10vw;
 }
@@ -338,6 +348,11 @@ body .content .featuresContent .features p {
 body .content .featuresContent .inTheBox {
   width: 100%;
   margin-right: 5vw;
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  -moz-column-gap: 20vw;
+       column-gap: 20vw;
 }
 body .content .featuresContent .inTheBox .lists {
   display: flex;
@@ -365,8 +380,8 @@ body .content .photos {
   grid-row: 3/4;
   display: flex;
   flex-direction: row;
-  -moz-column-gap: 30px;
-       column-gap: 30px;
+  -moz-column-gap: 15px;
+       column-gap: 15px;
 }
 body .content .photos div img {
   border-radius: 8px;
@@ -374,7 +389,7 @@ body .content .photos div img {
 body .content .photos .firstColumnPhoto {
   display: flex;
   flex-direction: column;
-  row-gap: 30px;
+  row-gap: 15px;
 }
 body .content .galleryStore {
   grid-column: 1/2;
@@ -432,9 +447,8 @@ body .content .shopMenu {
 body .content .aboutStore {
   grid-column: 1/2;
   grid-row: 6/7;
-  align-items: center;
 }
 body .footer {
   margin-left: 0;
   margin-top: 250px;
-}/*# sourceMappingURL=headphones-product-1.css.map */
+}/*# sourceMappingURL=tablet-headphones-product-1.css.map */
