@@ -7,7 +7,7 @@
 @import "mobile-extends";
 body {
   header {
-    @extend %commonHead;
+    @extend %commonHeaderMobile;
   }
   .content {
     grid-template-columns: 90vw;
@@ -57,7 +57,6 @@ body {
         text-align: center;
         width: 90%;
         padding: 0;
-        padding-left: 10vw;
       }
     }
   }
