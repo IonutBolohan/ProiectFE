@@ -109,41 +109,6 @@ body .content .shopMenu .item .text .shopBtn {
   align-items: center;
 }
 
-body .footer .container {
-  display: flex;
-  justify-content: space-between;
-  align-items: flex-end;
-  color: #ffffff;
-  width: 80vw;
-  height: 96px;
-  margin-left: 10vw;
-  margin-right: 10vw;
-  border-bottom: 1px solid #ffffff;
-  padding-bottom: 34px;
-}
-body .footer .container h4 {
-  text-transform: lowercase;
-  width: 143px;
-  margin: 0;
-}
-body .footer .container ul {
-  display: flex;
-  list-style: none;
-  gap: 34px;
-  font-weight: 700;
-  font-size: 13px;
-  letter-spacing: 2px;
-  text-transform: uppercase;
-  margin: 0;
-  padding-bottom: 6px;
-}
-body .footer .container button {
-  background-color: transparent;
-  border: none;
-  padding-bottom: 10px;
-  margin: 0;
-}
-
 body .content .shopMenu {
   display: flex;
   flex-direction: row;
@@ -200,36 +165,6 @@ body .content .aboutStore .headphonesManImg {
   border-radius: 8px;
 }
 
-body .footer {
-  background-color: #101010;
-  height: 50vh;
-  width: 100vw;
-  margin: 0;
-  padding: 0;
-  margin-top: 250px;
-}
-body .footer .container {
-  border: none;
-}
-body .footer .text {
-  padding-left: 10vw;
-  width: 49%;
-  text-align: justify;
-}
-body .footer .text p {
-  color: grey;
-}
-body .footer .text .copyright {
-  margin-top: 50px;
-}
-body .footer .logo {
-  display: flex;
-  flex-direction: row-reverse;
-  padding-right: 10vw;
-  transform: translateY(-10vw);
-  gap: 15px;
-}
-
 body .content .aboutStore {
   flex-direction: column-reverse;
 }
@@ -240,6 +175,23 @@ body .content .aboutStore .about {
   text-align: center;
   width: 90%;
   padding: 0;
+}
+
+body .footer .text {
+  padding-left: 5vw;
+  padding-top: 5px;
+}
+body .footer .container {
+  margin-left: 5vw;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+body .footer .container ul {
+  padding-left: 0;
 }
 
 body header .container {
@@ -265,7 +217,7 @@ body .content {
   width: 90vw;
   margin-left: 5vw;
   margin-right: 5vw;
-  row-gap: 150px;
+  row-gap: 100px;
 }
 body .content .back {
   color: #000000;
@@ -449,6 +401,5 @@ body .content .aboutStore {
   grid-row: 6/7;
 }
 body .footer {
-  margin-left: 0;
-  margin-top: 250px;
+  height: 60vh;
 }/*# sourceMappingURL=tablet-headphones-product-1.css.map */
