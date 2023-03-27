@@ -1,0 +1,58 @@
+@import "colors";
+@import "typography";
+@import "base";
+@import "dimensions";
+@import "spacings";
+@import "extends";
+@import "tablet-extends";
+body {
+  header {
+    @extend %commonHeaderTablet;
+  }
+  .content {
+    display: grid;
+    grid-template-columns: 90vw;
+    grid-template-rows: 80vw 80vw 60vw 80vw 40vw 80vw;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    row-gap: 100px;
+
+    .zx7Speaker {
+      column-gap: 5vw;
+
+      .main {
+        width: 50%;
+      }
+      .btnCounter {
+        margin-bottom: 2vw;
+      }
+    }
+    .featuresContent {
+      flex-direction: column;
+      column-gap: 0vw;
+      row-gap: 10vw;
+
+      .inTheBox {
+        display: flex;
+        justify-content: start;
+        align-items: baseline;
+        column-gap: 20vw;
+      }
+    }
+    .photos {
+      column-gap: 15px;
+      .firstColumnPhoto {
+        row-gap: 15px;
+      }
+    }
+
+    .aboutStore {
+      @extend %commonAboutStore;
+    }
+  }
+  .footer {
+    @extend %commonTabletFooter;
+    height: 60vh;
+  }
+}
