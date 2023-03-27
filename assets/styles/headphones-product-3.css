@@ -271,6 +271,7 @@ body .content .xx59Headphones {
   grid-row: 1/2;
   display: flex;
   justify-content: space-between;
+  align-items: center;
   -moz-column-gap: 10vw;
        column-gap: 10vw;
 }
@@ -288,12 +289,15 @@ body .content .xx59Headphones .main p {
   margin: 0;
   margin-bottom: 24px;
 }
+body .content .xx59Headphones .main div {
+  font-weight: 400;
+  color: #d87d4a;
+}
 body .content .xx59Headphones .main h2 {
   font-weight: 700;
 }
 body .content .xx59Headphones .main p {
   color: grey;
-  width: 450px;
 }
 body .content .xx59Headphones .main .btnCounter {
   background-color: #f1f1f1;
@@ -315,6 +319,10 @@ body .content .xx59Headphones .main .btnProduct {
   background-color: #d87d4a;
   color: #ffffff;
 }
+body .content .xx59Headphones .main .btnProduct:active {
+  background-color: #fbaf85;
+  cursor: pointer;
+}
 body .content .featuresContent {
   grid-column: 1/2;
   grid-row: 2/3;
@@ -335,6 +343,8 @@ body .content .featuresContent .inTheBox .lists {
   display: flex;
 }
 body .content .featuresContent .inTheBox .lists .firstLi li {
+  list-style: none;
+  padding: 0;
   margin-bottom: 12px;
   letter-spacing: 0;
   margin-right: 10px;
@@ -396,6 +406,11 @@ body .content .galleryStore .content .thirdItem {
   flex-direction: column;
   row-gap: 20px;
 }
+body .content .galleryStore .content .firstItem img,
+body .content .galleryStore .content .secondItem img,
+body .content .galleryStore .content .thirdItem img {
+  border-radius: 8px;
+}
 body .content .galleryStore .content .firstItem .nameAndButton,
 body .content .galleryStore .content .secondItem .nameAndButton,
 body .content .galleryStore .content .thirdItem .nameAndButton {
@@ -410,6 +425,12 @@ body .content .galleryStore .content .thirdItem .nameAndButton button {
   color: #ffffff;
   background-color: #d87d4a;
 }
+body .content .galleryStore .content .firstItem .nameAndButton button:active,
+body .content .galleryStore .content .secondItem .nameAndButton button:active,
+body .content .galleryStore .content .thirdItem .nameAndButton button:active {
+  background-color: #fbaf85;
+  cursor: pointer;
+}
 body .content .shopMenu {
   grid-column: 1/2;
   grid-row: 5/6;
@@ -418,6 +439,7 @@ body .content .shopMenu {
 body .content .aboutStore {
   grid-column: 1/2;
   grid-row: 6/7;
+  align-items: center;
 }
 body .footer {
   margin-left: 0;

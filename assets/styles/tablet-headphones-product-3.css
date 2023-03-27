@@ -1,1 +1,181 @@
-/*# sourceMappingURL=tablet-headphones-product-3.css.map */
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+html {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Manrope", "sans-serif";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: 1.15px;
+}
+
+h4 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 1.7px;
+}
+
+h6 {
+  font-size: 18px;
+  letter-spacing: 1.3px;
+}
+
+div {
+  font-size: 14px;
+  letter-spacing: 10px;
+}
+
+p {
+  font-size: 15px;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body .content .aboutStore {
+  display: flex;
+  justify-content: space-between;
+}
+body .content .aboutStore .about {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  padding-right: 7vw;
+}
+body .content .aboutStore .about p {
+  color: grey;
+}
+body .content .aboutStore .headphonesManImg {
+  border-radius: 8px;
+}
+
+body .content .aboutStore {
+  flex-direction: column-reverse;
+}
+body .content .aboutStore .about {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 90%;
+  padding: 0;
+}
+
+body .footer .text {
+  padding-left: 5vw;
+  padding-top: 5px;
+}
+body .footer .container {
+  margin-left: 5vw;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+body .footer .container ul {
+  padding-left: 0;
+}
+
+body header .container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90%;
+}
+body header .container .hamburgerIcon {
+  display: block;
+  padding-bottom: 8px;
+}
+body header .container h4 {
+  transform: translateX(-100px);
+}
+body header .container ul li {
+  display: none;
+}
+
+body .content {
+  display: grid;
+  grid-template-columns: 90vw;
+  grid-template-rows: 80vw 80vw 60vw 80vw 40vw 80vw;
+  width: 90vw;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  row-gap: 100px;
+}
+body .content .xx59Headphones {
+  -moz-column-gap: 5vw;
+       column-gap: 5vw;
+}
+body .content .xx59Headphones .main {
+  width: 50%;
+}
+body .content .xx59Headphones .btnCounter {
+  margin-bottom: 2vw;
+}
+body .content .featuresContent {
+  flex-direction: column;
+  -moz-column-gap: 0vw;
+       column-gap: 0vw;
+  row-gap: 10vw;
+}
+body .content .featuresContent .inTheBox {
+  display: flex;
+  justify-content: start;
+  align-items: baseline;
+  -moz-column-gap: 20vw;
+       column-gap: 20vw;
+}
+body .content .photos {
+  -moz-column-gap: 15px;
+       column-gap: 15px;
+}
+body .content .photos .firstColumnPhoto {
+  row-gap: 15px;
+}
+body .footer {
+  height: 60vh;
+}/*# sourceMappingURL=tablet-headphones-product-3.css.map */
