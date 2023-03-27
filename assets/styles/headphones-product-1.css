@@ -343,6 +343,8 @@ body .content .featuresContent .inTheBox .lists {
   display: flex;
 }
 body .content .featuresContent .inTheBox .lists .firstLi li {
+  list-style: none;
+  padding: 0;
   margin-bottom: 12px;
   letter-spacing: 0;
   margin-right: 10px;
@@ -403,6 +405,11 @@ body .content .galleryStore .content .thirdItem {
   display: flex;
   flex-direction: column;
   row-gap: 20px;
+}
+body .content .galleryStore .content .firstItem img,
+body .content .galleryStore .content .secondItem img,
+body .content .galleryStore .content .thirdItem img {
+  border-radius: 8px;
 }
 body .content .galleryStore .content .firstItem .nameAndButton,
 body .content .galleryStore .content .secondItem .nameAndButton,

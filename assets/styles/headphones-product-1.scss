@@ -114,6 +114,8 @@ body {
           display: flex;
           .firstLi {
             li {
+              list-style: none;
+              padding: 0;
               margin-bottom: 12px;
               letter-spacing: 0;
               margin-right: 10px;
@@ -176,6 +178,9 @@ body {
           display: flex;
           flex-direction: column;
           row-gap: 20px;
+          img {
+            border-radius: 8px;
+          }
           .nameAndButton {
             display: flex;
             flex-direction: column;

@@ -1,0 +1,77 @@
+@import "colors";
+@import "typography";
+@import "base";
+@import "dimensions";
+@import "spacings";
+@import "extends";
+@import "mobile-extends";
+body {
+  header {
+    @extend %commonHeaderMobile;
+    margin-bottom: 10vw;
+  }
+  .content {
+    grid-template-rows: 150vw 120vw 200vw 350vw 200vw 150vw;
+    row-gap: 150px;
+    .back {
+      top: 15vh;
+    }
+    .xx99Mark2 {
+      flex-direction: column;
+      align-items: start;
+      row-gap: 5vw;
+      .main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        .buttons {
+          width: 300px;
+        }
+      }
+    }
+    .featuresContent {
+      row-gap: 5vw;
+      column-gap: 0;
+      .inTheBox {
+        flex-direction: column;
+        justify-content: start;
+        align-items: baseline;
+
+        .lists {
+          display: flex;
+          justify-content: start;
+          align-items: start;
+          .firstLi {
+            padding-left: 0;
+          }
+        }
+      }
+    }
+    .photos {
+      flex-direction: column;
+      row-gap: 15px;
+      column-gap: 0;
+      .firstColumnPhoto {
+        row-gap: 15px;
+      }
+    }
+    .galleryStore {
+      .content {
+        display: flex;
+        flex-direction: column;
+        column-gap: 0;
+        row-gap: 15vh;
+      }
+    }
+    .shopMenu {
+      margin-top: 320px;
+      flex-direction: column;
+      align-items: center;
+    }
+  }
+  .footer {
+    @extend %commonMobileFooter;
+    height: 120vh;
+  }
+}
