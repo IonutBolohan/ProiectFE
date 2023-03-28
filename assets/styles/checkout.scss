@@ -129,6 +129,7 @@ body {
       flex-direction: row;
       position: relative;
       border-radius: 8px;
+      min-width: 400px;
       h6 {
         color: $black;
       }

@@ -1,0 +1,36 @@
+@import "colors";
+@import "typography";
+@import "base";
+@import "dimensions";
+@import "spacings";
+@import "extends";
+@import "tablet-extends";
+body {
+  header {
+    @extend %commonHeaderTablet;
+  }
+  form {
+    width: 90vw;
+    height: 340vh;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    grid-template-columns: 2fr;
+    grid-template-rows: 2fr 1fr;
+    .checkoutTable {
+      grid-column: 1/2;
+      grid-row: 1/2;
+    }
+    .summary {
+      grid-column: 1/2;
+      grid-row: 2/3;
+    }
+
+    .back {
+      left: 5vw;
+    }
+  }
+  .footer {
+    @extend %commonTabletFooter;
+    height: 60vh;
+  }
+}

@@ -1,0 +1,34 @@
+@import "colors";
+@import "typography";
+@import "base";
+@import "dimensions";
+@import "spacings";
+@import "extends";
+@import "mobile-extends";
+body {
+  header {
+    @extend %commonHeaderMobile;
+    margin-bottom: 10vw;
+  }
+  .content {
+    grid-template-rows: 150vw;
+    row-gap: 150px;
+    .back {
+      top: 15vh;
+    }
+    .xx99Mark2 {
+      flex-direction: column;
+      align-items: start;
+      row-gap: 5vw;
+      .main {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        width: 90%;
+        .buttons {
+          width: 300px;
+        }
+      }
+    }
+  }
+}

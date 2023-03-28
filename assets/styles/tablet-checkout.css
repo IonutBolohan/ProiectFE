@@ -1,0 +1,131 @@
+@import url("https://fonts.googleapis.com/css2?family=Manrope:wght@400;700&display=swap");
+html {
+  font-size: 15px;
+  font-weight: normal;
+}
+
+body {
+  font-family: "Manrope", "sans-serif";
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+h1 {
+  font-size: 56px;
+  letter-spacing: 2px;
+}
+
+h2 {
+  font-size: 40px;
+  letter-spacing: 1.5px;
+}
+
+h3 {
+  font-size: 32px;
+  letter-spacing: 1.15px;
+}
+
+h4 {
+  font-size: 28px;
+  letter-spacing: 2px;
+}
+
+h5 {
+  font-size: 24px;
+  letter-spacing: 1.7px;
+}
+
+h6 {
+  font-size: 18px;
+  letter-spacing: 1.3px;
+}
+
+div {
+  font-size: 14px;
+  letter-spacing: 10px;
+}
+
+p {
+  font-size: 15px;
+  letter-spacing: normal;
+  text-transform: none;
+  font-weight: 500;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+}
+
+body .footer .text {
+  padding-left: 5vw;
+  padding-top: 5px;
+}
+body .footer .container {
+  margin-left: 5vw;
+  padding-top: 30px;
+  margin-bottom: 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 30px;
+}
+body .footer .container ul {
+  padding-left: 0;
+}
+
+body header .container {
+  margin-left: 5vw;
+  margin-right: 5vw;
+  width: 90%;
+}
+body header .container .hamburgerIcon {
+  display: block;
+  padding-bottom: 8px;
+}
+body header .container h4 {
+  transform: translateX(-100px);
+}
+body header .container ul li {
+  display: none;
+}
+
+body form {
+  width: 90vw;
+  height: 340vh;
+  margin-left: 5vw;
+  margin-right: 5vw;
+  grid-template-columns: 2fr;
+  grid-template-rows: 2fr 1fr;
+}
+body form .checkoutTable {
+  grid-column: 1/2;
+  grid-row: 1/2;
+}
+body form .summary {
+  grid-column: 1/2;
+  grid-row: 2/3;
+}
+body form .back {
+  left: 5vw;
+}
+body .footer {
+  height: 60vh;
+}/*# sourceMappingURL=tablet-checkout.css.map */
