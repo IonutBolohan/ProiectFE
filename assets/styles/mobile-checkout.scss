@@ -1,0 +1,40 @@
+@import "colors";
+@import "typography";
+@import "base";
+@import "dimensions";
+@import "spacings";
+@import "extends";
+@import "mobile-extends";
+body {
+  header {
+    @extend %commonHeaderMobile;
+    margin-bottom: 10vw;
+  }
+  form {
+    height: 380vh;
+
+    .checkoutTable {
+      display: flex;
+      align-items: center;
+      flex-direction: column;
+      .content {
+        input {
+          max-width: 300px;
+        }
+        .smallContainer {
+          align-items: center;
+          flex-direction: column;
+        }
+      }
+    }
+
+    .back {
+      top: 20vh;
+      left: 5vw;
+    }
+  }
+  .footer {
+    @extend %commonMobileFooter;
+    height: 120vh;
+  }
+}

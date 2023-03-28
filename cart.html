@@ -10,12 +10,29 @@
       href="assets/favicon-32x32.png"
     />
     <link href="assets/styles/cart.css" rel="stylesheet" />
+    <link
+    href="assets/styles/tablet-cart.css"
+    rel="stylesheet"
+    media="screen
+and (max-width: 1024px)"
+  />
+  <link
+    href="assets/styles/mobile-cart.css"
+    rel="stylesheet"
+    media="screen
+and (max-width: 768px) and (min-width: 568px)"
+  />
     <title>Cart</title>
   </head>
   <body>
     <div class="all">
       <header>
         <div class="container">
+          <img
+          src="../ProiectFE/assets/shared/tablet/icon-hamburger.svg "
+          alt="Hamburger icon"
+          class="hamburgerIcon"
+        />
           <h4>audiophile</h4>
           <nav>
             <ul>
@@ -27,7 +44,6 @@
           </nav>
           <button>
             <img src="assets/shared/desktop/icon-cart.svg" alt="cartImage" />
-            
           </button>
         </div>
         <div class="backgroundImage"></div>
@@ -85,10 +101,24 @@
         <p class="back">Go Back</p>
         <section class="xx99Mark2">
           <div class="smallSectionImage">
-            <img
-              src="../ProiectFE/assets/product-xx99-mark-two-headphones/desktop/image-product.jpg"
-              alt="imgX99-2"
-            />
+            <picture>
+              <source
+                media="(max-width: 768px) and (min-width: 568px)"
+                srcset="
+                  ../ProiectFE/assets/product-xx99-mark-two-headphones/mobile/image-product.jpg
+                "
+              />
+              <source
+                media="(max-width:1024px)"
+                srcset="
+                  ../ProiectFE/assets/product-xx99-mark-two-headphones/tablet/image-product.jpg
+                "
+              />
+              <img
+                src="../ProiectFE/assets/product-xx99-mark-two-headphones/desktop/image-product.jpg"
+                alt="imgX99-2"
+              />
+            </picture>
           </div>
           <div class="main">
             <div>new product</div>
